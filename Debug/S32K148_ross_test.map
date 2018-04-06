@@ -1,0 +1,2092 @@
+Archive member included because of file (symbol)
+
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+                              ./src/main.o (realloc)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o (exit)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memcpy.o)
+                              ./src/main.o (memcpy)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o (memset)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strlen.o)
+                              ./src/main.o (strlen)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o) (__fill_mem)
+c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(_arm_addsubdf3.o)
+                              ./src/ross_files/ros_lib/duration.o (__aeabi_i2d)
+c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(_arm_muldivdf3.o)
+                              ./src/ross_files/ros_lib/duration.o (__aeabi_dmul)
+c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(_arm_fixdfsi.o)
+                              ./src/ross_files/ros_lib/duration.o (__aeabi_d2iz)
+c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(unwind-arm.o)
+                              ./src/main.o (__aeabi_unwind_cpp_pr1)
+c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(libunwind.o)
+                              c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(unwind-arm.o) (restore_core_regs)
+c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(pr-support.o)
+                              c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(unwind-arm.o) (__gnu_unwind_execute)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o (__init_cpp)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o) (__destroy_global_chain)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o (__copy_rom_sections_to_ram)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(cxxabi_terminate_override.o)
+                              (__cxxabiv1::__terminate_handler)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+                              ./src/main.o (vtable for __cxxabiv1::__class_type_info)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(del_op.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o) (operator delete(void*))
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+                              ./src/main.o (vtable for __cxxabiv1::__si_class_type_info)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o) (std::type_info::~type_info())
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(abort.o)
+                              c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(unwind-arm.o) (abort)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strcmp.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o) (strcmp)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(raise.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(abort.o) (raise)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(signal.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(raise.o) (signal_funcs)
+C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(errno.o)
+                              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(signal.o) (errno)
+
+Allocating common symbols
+Common symbol       size              file
+
+signal_funcs        0x1c              C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(signal.o)
+errno               0x4               C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(errno.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .text.__thumb_startup
+                0x00000000       0x3c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .text.__iar_program_start
+                0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .bss.argv      0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .debug_info    0x00000000      0x144 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .debug_abbrev  0x00000000       0xc0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .debug_aranges
+                0x00000000       0x28 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .debug_line    0x00000000       0x68 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .debug_str     0x00000000      0x270 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .debug_frame   0x00000000       0x30 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .ARM.attributes
+                0x00000000       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_uart.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_uart.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_uart.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_uart.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_uart.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_uart.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_uart.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_uart.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_uart.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_uart.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_uart.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_uart.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_uart.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_uart.o
+ .text          0x00000000        0x0 ./src/ross_files/s32k148_uart.o
+ .data          0x00000000        0x0 ./src/ross_files/s32k148_uart.o
+ .bss           0x00000000        0x0 ./src/ross_files/s32k148_uart.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_time.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_time.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_time.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_time.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_time.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_time.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_time.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_time.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_time.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_time.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_time.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_time.o
+ .group         0x00000000        0x8 ./src/ross_files/s32k148_time.o
+ .text          0x00000000        0x0 ./src/ross_files/s32k148_time.o
+ .data          0x00000000        0x0 ./src/ross_files/s32k148_time.o
+ .bss           0x00000000        0x0 ./src/ross_files/s32k148_time.o
+ .bss.timer0_ticks
+                0x00000000        0x4 ./src/ross_files/s32k148_time.o
+ .bss.overflow_ms
+                0x00000000        0x4 ./src/ross_files/s32k148_time.o
+ .debug_macro   0x00000000      0x868 ./src/ross_files/s32k148_time.o
+ .debug_macro   0x00000000       0x52 ./src/ross_files/s32k148_time.o
+ .debug_macro   0x00000000       0xa0 ./src/ross_files/s32k148_time.o
+ .debug_macro   0x00000000       0x16 ./src/ross_files/s32k148_time.o
+ .debug_macro   0x00000000       0x64 ./src/ross_files/s32k148_time.o
+ .debug_macro   0x00000000      0x185 ./src/ross_files/s32k148_time.o
+ .debug_macro   0x00000000      0x140 ./src/ross_files/s32k148_time.o
+ .debug_macro   0x00000000       0x9d ./src/ross_files/s32k148_time.o
+ .debug_macro   0x00000000       0x10 ./src/ross_files/s32k148_time.o
+ .debug_macro   0x00000000      0x15b ./src/ross_files/s32k148_time.o
+ .debug_macro   0x00000000       0x28 ./src/ross_files/s32k148_time.o
+ .debug_macro   0x00000000       0x58 ./src/ross_files/s32k148_time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .text          0x00000000        0x0 ./src/ross_files/ros_lib/time.o
+ .data          0x00000000        0x0 ./src/ross_files/ros_lib/time.o
+ .bss           0x00000000        0x0 ./src/ross_files/ros_lib/time.o
+ .ARM.extab.text._ZN3ros16normalizeSecNSecERmS0_
+                0x00000000        0x0 ./src/ross_files/ros_lib/time.o
+ .text._ZN3ros4Time8fromNSecEl
+                0x00000000       0x58 ./src/ross_files/ros_lib/time.o
+ .ARM.extab.text._ZN3ros4Time8fromNSecEl
+                0x00000000        0x0 ./src/ross_files/ros_lib/time.o
+ .ARM.exidx.text._ZN3ros4Time8fromNSecEl
+                0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .text._ZN3ros4TimepLERKNS_8DurationE
+                0x00000000       0x40 ./src/ross_files/ros_lib/time.o
+ .ARM.extab.text._ZN3ros4TimepLERKNS_8DurationE
+                0x00000000        0x0 ./src/ross_files/ros_lib/time.o
+ .ARM.exidx.text._ZN3ros4TimepLERKNS_8DurationE
+                0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .text._ZN3ros4TimemIERKNS_8DurationE
+                0x00000000       0x40 ./src/ross_files/ros_lib/time.o
+ .ARM.extab.text._ZN3ros4TimemIERKNS_8DurationE
+                0x00000000        0x0 ./src/ross_files/ros_lib/time.o
+ .ARM.exidx.text._ZN3ros4TimemIERKNS_8DurationE
+                0x00000000        0x8 ./src/ross_files/ros_lib/time.o
+ .rodata._ZN14rosserial_msgsL12REQUESTPARAME
+                0x00000000       0x1c ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00000000       0x52 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00000000       0xa0 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00000000       0x16 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00000000       0x64 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00000000       0x9d ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00000000       0x10 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00000000       0x28 ./src/ross_files/ros_lib/time.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .text          0x00000000        0x0 ./src/ross_files/ros_lib/duration.o
+ .data          0x00000000        0x0 ./src/ross_files/ros_lib/duration.o
+ .bss           0x00000000        0x0 ./src/ross_files/ros_lib/duration.o
+ .text._ZN3ros22normalizeSecNSecSignedERlS0_
+                0x00000000       0x64 ./src/ross_files/ros_lib/duration.o
+ .ARM.extab.text._ZN3ros22normalizeSecNSecSignedERlS0_
+                0x00000000        0x0 ./src/ross_files/ros_lib/duration.o
+ .ARM.exidx.text._ZN3ros22normalizeSecNSecSignedERlS0_
+                0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .text._ZN3ros8DurationpLERKS0_
+                0x00000000       0x40 ./src/ross_files/ros_lib/duration.o
+ .ARM.extab.text._ZN3ros8DurationpLERKS0_
+                0x00000000        0x0 ./src/ross_files/ros_lib/duration.o
+ .ARM.exidx.text._ZN3ros8DurationpLERKS0_
+                0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .text._ZN3ros8DurationmIERKS0_
+                0x00000000       0x40 ./src/ross_files/ros_lib/duration.o
+ .ARM.extab.text._ZN3ros8DurationmIERKS0_
+                0x00000000        0x0 ./src/ross_files/ros_lib/duration.o
+ .ARM.exidx.text._ZN3ros8DurationmIERKS0_
+                0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .text._ZN3ros8DurationmLEd
+                0x00000000       0x7c ./src/ross_files/ros_lib/duration.o
+ .ARM.extab.text._ZN3ros8DurationmLEd
+                0x00000000        0x0 ./src/ross_files/ros_lib/duration.o
+ .ARM.exidx.text._ZN3ros8DurationmLEd
+                0x00000000        0x8 ./src/ross_files/ros_lib/duration.o
+ .debug_info    0x00000000      0x5eb ./src/ross_files/ros_lib/duration.o
+ .debug_abbrev  0x00000000      0x1ec ./src/ross_files/ros_lib/duration.o
+ .debug_aranges
+                0x00000000       0x38 ./src/ross_files/ros_lib/duration.o
+ .debug_ranges  0x00000000       0x28 ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000      0x130 ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000      0x898 ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000       0x52 ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000       0xa0 ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000       0x16 ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000       0x64 ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000      0x18c ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000      0x14e ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000       0x28 ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000       0x16 ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000       0xd6 ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000       0x80 ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000       0x9d ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000       0x10 ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000      0x18e ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000       0xac ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000       0x10 ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000      0x11f ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000      0x193 ./src/ross_files/ros_lib/duration.o
+ .debug_macro   0x00000000       0x58 ./src/ross_files/ros_lib/duration.o
+ .debug_line    0x00000000      0x2e7 ./src/ross_files/ros_lib/duration.o
+ .debug_str     0x00000000     0x54bb ./src/ross_files/ros_lib/duration.o
+ .comment       0x00000000       0x71 ./src/ross_files/ros_lib/duration.o
+ .debug_frame   0x00000000       0xa4 ./src/ross_files/ros_lib/duration.o
+ .ARM.attributes
+                0x00000000       0x33 ./src/ross_files/ros_lib/duration.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000       0x10 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .group         0x00000000        0x8 ./src/main.o
+ .text          0x00000000        0x0 ./src/main.o
+ .data          0x00000000        0x0 ./src/main.o
+ .bss           0x00000000        0x0 ./src/main.o
+ .ARM.extab.text.__cxa_pure_virtual
+                0x00000000        0x0 ./src/main.o
+ .ARM.extab.text._Z41__static_initialization_and_destruction_0ii
+                0x00000000        0x0 ./src/main.o
+ .ARM.extab.text._GLOBAL__sub_I___cxa_pure_virtual
+                0x00000000        0x0 ./src/main.o
+ .debug_macro   0x00000000      0x898 ./src/main.o
+ .debug_macro   0x00000000       0x52 ./src/main.o
+ .debug_macro   0x00000000       0xa0 ./src/main.o
+ .debug_macro   0x00000000       0x16 ./src/main.o
+ .debug_macro   0x00000000       0x64 ./src/main.o
+ .debug_macro   0x00000000      0x18c ./src/main.o
+ .debug_macro   0x00000000      0x14e ./src/main.o
+ .debug_macro   0x00000000       0x9d ./src/main.o
+ .debug_macro   0x00000000       0x10 ./src/main.o
+ .debug_macro   0x00000000       0x16 ./src/main.o
+ .debug_macro   0x00000000       0x16 ./src/main.o
+ .debug_macro   0x00000000       0x10 ./src/main.o
+ .debug_macro   0x00000000       0x28 ./src/main.o
+ .debug_macro   0x00000000       0x2e ./src/main.o
+ .debug_macro   0x00000000       0x28 ./src/main.o
+ .debug_macro   0x00000000       0x16 ./src/main.o
+ .debug_macro   0x00000000       0xd6 ./src/main.o
+ .debug_macro   0x00000000       0x80 ./src/main.o
+ .debug_macro   0x00000000      0x194 ./src/main.o
+ .debug_macro   0x00000000       0xac ./src/main.o
+ .debug_macro   0x00000000       0x10 ./src/main.o
+ .debug_macro   0x00000000      0x11f ./src/main.o
+ .debug_macro   0x00000000      0x193 ./src/main.o
+ .debug_macro   0x00000000       0x58 ./src/main.o
+ .debug_macro   0x00000000       0x40 ./src/main.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/system_S32K148.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/system_S32K148.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/system_S32K148.o
+ .data.SystemCoreClock
+                0x00000000        0x4 ./Project_Settings/Startup_Code/system_S32K148.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0xf4 ./Project_Settings/Startup_Code/system_S32K148.o
+ .text.SystemSoftwareReset
+                0x00000000       0x40 ./Project_Settings/Startup_Code/system_S32K148.o
+ .rodata.fircFreq.5431
+                0x00000000       0x10 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00000000      0x868 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00000000       0x52 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00000000       0xa0 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00000000       0x16 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00000000       0x16 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00000000       0x64 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00000000      0x185 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00000000      0x140 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00000000       0x9d ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00000000       0x10 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00000000      0x15b ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00000000       0x28 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00000000       0x58 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00000000    0x11ce7 ./Project_Settings/Startup_Code/system_S32K148.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/startup_S32K148.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/startup_S32K148.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .group         0x00000000        0x8 ./Project_Settings/Startup_Code/startup.o
+ .text          0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .data          0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .bss           0x00000000        0x0 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000      0x868 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x52 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0xa0 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x16 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x10 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x6d ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x16 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x64 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000      0x185 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000      0x140 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x9d ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x10 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000      0x15b ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x28 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x58 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000    0x11ce7 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000      0xb08 ./Project_Settings/Startup_Code/startup.o
+ .debug_macro   0x00000000       0x22 ./Project_Settings/Startup_Code/startup.o
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+ .text.calloc   0x00000000       0x3a C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .text._Exit    0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memcpy.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memcpy.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memcpy.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .text.memset   0x00000000        0xc C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .debug_info    0x00000000       0xec C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .debug_abbrev  0x00000000       0x62 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .debug_loc     0x00000000       0x64 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .debug_aranges
+                0x00000000       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .debug_line    0x00000000       0x8f C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .debug_str     0x00000000      0x21f C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .debug_frame   0x00000000       0x28 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .ARM.attributes
+                0x00000000       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memset.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strlen.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strlen.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strlen.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .text.__fill_mem
+                0x00000000       0x7a C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .debug_info    0x00000000      0x137 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .debug_abbrev  0x00000000       0x78 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .debug_loc     0x00000000      0x16b C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .debug_aranges
+                0x00000000       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .debug_line    0x00000000       0xb2 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .debug_str     0x00000000      0x231 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .debug_frame   0x00000000       0x28 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .ARM.attributes
+                0x00000000       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(__filll_mem.o)
+ .text          0x00000000      0x370 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(_arm_addsubdf3.o)
+ .text          0x00000000      0x424 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(_arm_muldivdf3.o)
+ .data          0x00000000        0x0 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(_arm_muldivdf3.o)
+ .bss           0x00000000        0x0 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(_arm_muldivdf3.o)
+ .text          0x00000000       0x50 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(_arm_fixdfsi.o)
+ .data          0x00000000        0x0 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(_arm_fixdfsi.o)
+ .bss           0x00000000        0x0 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x00000000       0x1e c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(_arm_fixdfsi.o)
+ .data          0x00000000        0x0 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(unwind-arm.o)
+ .bss           0x00000000        0x0 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(unwind-arm.o)
+ .ARM.extab     0x00000000        0x0 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(unwind-arm.o)
+ .data          0x00000000        0x0 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(libunwind.o)
+ .bss           0x00000000        0x0 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(libunwind.o)
+ .data          0x00000000        0x0 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(pr-support.o)
+ .bss           0x00000000        0x0 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(pr-support.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .text.__init_cpp
+                0x00000000       0x4c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .bss.__dso_handle
+                0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__register_global_object
+                0x00000000       0x14 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__cxa_atexit
+                0x00000000       0x38 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__aeabi_atexit
+                0x00000000        0xa C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__register_atexit
+                0x00000000        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__init_registers
+                0x00000000       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__init_hardware
+                0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text.__init_user
+                0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .bss.atexit_curr_func
+                0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .bss.atexit_funcs
+                0x00000000      0x300 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .text.__flush_cache
+                0x00000000        0x2 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .text.__copy_rom_section
+                0x00000000       0x42 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .text.__copy_rom_sections_to_ram
+                0x00000000       0x28 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_info    0x00000000      0x20e C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_abbrev  0x00000000      0x11f C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_loc     0x00000000       0xb3 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_aranges
+                0x00000000       0x30 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_line    0x00000000       0x9e C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_str     0x00000000      0x233 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .debug_frame   0x00000000       0x48 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .ARM.attributes
+                0x00000000       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(ROMCopy.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(cxxabi_terminate_override.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(cxxabi_terminate_override.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(cxxabi_terminate_override.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .ARM.extab.text._ZN10__cxxabiv117__class_type_infoD2Ev
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .ARM.extab.text._ZN10__cxxabiv117__class_type_infoD0Ev
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(del_op.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(del_op.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(del_op.o)
+ .ARM.extab.text._ZdlPv
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(del_op.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+ .ARM.extab.text._ZN10__cxxabiv120__si_class_type_infoD2Ev
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+ .ARM.extab.text._ZN10__cxxabiv120__si_class_type_infoD0Ev
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+ .ARM.extab.text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .ARM.extab.text._ZNSt9type_infoD2Ev
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .ARM.extab.text._ZNKSt9type_info14__is_pointer_pEv
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .ARM.extab.text._ZNKSt9type_info15__is_function_pEv
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .text._ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv
+                0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .ARM.extab.text._ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .ARM.exidx.text._ZNKSt9type_info11__do_upcastEPKN10__cxxabiv117__class_type_infoEPPv
+                0x00000000        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .text._ZNSt9type_infoD0Ev
+                0x00000000        0xc C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .ARM.extab.text._ZNSt9type_infoD0Ev
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .ARM.exidx.text._ZNSt9type_infoD0Ev
+                0x00000000        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .ARM.extab.text._ZNKSt9type_infoeqERKS_
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .text._ZNKSt9type_info10__do_catchEPKS_PPvj
+                0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .ARM.extab.text._ZNKSt9type_info10__do_catchEPKS_PPvj
+                0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .ARM.exidx.text._ZNKSt9type_info10__do_catchEPKS_PPvj
+                0x00000000        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .rodata._ZTVSt9type_info
+                0x00000000       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(abort.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(abort.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(abort.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strcmp.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strcmp.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strcmp.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(raise.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(raise.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(raise.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(signal.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(signal.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(signal.o)
+ .text.signal   0x00000000       0x28 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(signal.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(errno.o)
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(errno.o)
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(errno.o)
+ .debug_info    0x00000000       0x9d C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(errno.o)
+ .debug_abbrev  0x00000000       0x44 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(errno.o)
+ .debug_aranges
+                0x00000000       0x18 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(errno.o)
+ .debug_line    0x00000000       0x4d C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(errno.o)
+ .debug_str     0x00000000      0x20b C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(errno.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(errno.o)
+ .ARM.attributes
+                0x00000000       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(errno.o)
+ COMMON         0x00000000        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(errno.o)
+ .text          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .data          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .bss           0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .text._ExitProcess
+                0x00000000        0x2 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .debug_info    0x00000000       0x4e C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .debug_abbrev  0x00000000       0x4a C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .debug_aranges
+                0x00000000       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .debug_line    0x00000000       0x45 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .debug_str     0x00000000      0x1a7 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .debug_frame   0x00000000       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+ .ARM.attributes
+                0x00000000       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+m_interrupts     0x00000000         0x00000400         xr
+m_flash_config   0x00000400         0x00000010         xr
+m_text           0x00000410         0x0017fbf0         xr
+m_data           0x1ffe0000         0x00020000         rw
+m_data_2         0x20000000         0x0001f000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+LOAD ./src/ross_files/s32k148_uart.o
+LOAD ./src/ross_files/s32k148_time.o
+LOAD ./src/ross_files/ros_lib/time.o
+LOAD ./src/ross_files/ros_lib/duration.o
+LOAD ./src/main.o
+LOAD ./Project_Settings/Startup_Code/system_S32K148.o
+LOAD ./Project_Settings/Startup_Code/startup_S32K148.o
+LOAD ./Project_Settings/Startup_Code/startup.o
+LOAD C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libstdc++.a
+LOAD C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libm.a
+START GROUP
+LOAD C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a
+LOAD C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libstdc++.a
+LOAD C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libm.a
+LOAD c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a
+LOAD C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a
+LOAD C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a
+END GROUP
+LOAD C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_end.o
+                0x00000400                HEAP_SIZE = DEFINED (__heap_size__)?__heap_size__:0x400
+                0x00000400                STACK_SIZE = DEFINED (__stack_size__)?__stack_size__:0x400
+                0x00000400                M_VECTOR_RAM_SIZE = DEFINED (__flash_vector_table__)?0x0:0x400
+
+.interrupts     0x00000000      0x400
+                0x00000000                __VECTOR_TABLE = .
+                0x00000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x00000000      0x400 ./Project_Settings/Startup_Code/startup_S32K148.o
+                0x00000000                __isr_vector
+                0x00000400                . = ALIGN (0x4)
+
+.flash_config   0x00000400       0x10
+                0x00000400                . = ALIGN (0x4)
+ *(.FlashConfig)
+ .FlashConfig   0x00000400       0x10 ./Project_Settings/Startup_Code/startup_S32K148.o
+                0x00000410                . = ALIGN (0x4)
+
+.text           0x00000410     0x3248
+                0x00000410                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000410       0x44 ./Project_Settings/Startup_Code/startup_S32K148.o
+                0x00000410                Reset_Handler
+                0x00000450                FTM5_Ch2_Ch3_IRQHandler
+                0x00000450                DebugMon_Handler
+                0x00000450                CAN0_ORed_IRQHandler
+                0x00000450                HardFault_Handler
+                0x00000450                FTM7_Ch2_Ch3_IRQHandler
+                0x00000450                Reserved103_IRQHandler
+                0x00000450                FTM7_Ch6_Ch7_IRQHandler
+                0x00000450                SysTick_Handler
+                0x00000450                FTM2_Ovf_Reload_IRQHandler
+                0x00000450                Reserved50_IRQHandler
+                0x00000450                FTFC_Fault_IRQHandler
+                0x00000450                FTM0_Ch6_Ch7_IRQHandler
+                0x00000450                Reserved114_IRQHandler
+                0x00000450                PendSV_Handler
+                0x00000450                NMI_Handler
+                0x00000450                ERM_double_fault_IRQHandler
+                0x00000450                DMA2_IRQHandler
+                0x00000450                Reserved59_IRQHandler
+                0x00000450                LPIT0_Ch0_IRQHandler
+                0x00000450                Reserved99_IRQHandler
+                0x00000450                FTM7_Ch4_Ch5_IRQHandler
+                0x00000450                FTM3_Ch6_Ch7_IRQHandler
+                0x00000450                CAN2_ORed_0_15_MB_IRQHandler
+                0x00000450                LPIT0_Ch3_IRQHandler
+                0x00000450                LPI2C1_Master_IRQHandler
+                0x00000450                FTM0_Ch4_Ch5_IRQHandler
+                0x00000450                CAN1_Error_IRQHandler
+                0x00000450                FTM4_Ch6_Ch7_IRQHandler
+                0x00000450                FTM3_Ch0_Ch1_IRQHandler
+                0x00000450                SWI_IRQHandler
+                0x00000450                ADC0_IRQHandler
+                0x00000450                FTM2_Ch4_Ch5_IRQHandler
+                0x00000450                UsageFault_Handler
+                0x00000450                FTM0_Ovf_Reload_IRQHandler
+                0x00000450                FTM4_Fault_IRQHandler
+                0x00000450                DefaultISR
+                0x00000450                DMA9_IRQHandler
+                0x00000450                Reserved58_IRQHandler
+                0x00000450                FTM7_Fault_IRQHandler
+                0x00000450                LPI2C1_Slave_IRQHandler
+                0x00000450                CAN1_ORed_0_15_MB_IRQHandler
+                0x00000450                FTM1_Ch2_Ch3_IRQHandler
+                0x00000450                DMA14_IRQHandler
+                0x00000450                Reserved82_IRQHandler
+                0x00000450                CAN0_ORed_16_31_MB_IRQHandler
+                0x00000450                LPI2C0_Slave_IRQHandler
+                0x00000450                PORTD_IRQHandler
+                0x00000450                SAI1_Rx_IRQHandler
+                0x00000450                Reserved69_IRQHandler
+                0x00000450                PORTB_IRQHandler
+                0x00000450                Reserved70_IRQHandler
+                0x00000450                ADC1_IRQHandler
+                0x00000450                FTM2_Ch2_Ch3_IRQHandler
+                0x00000450                FTM5_Ch0_Ch1_IRQHandler
+                0x00000450                Reserved53_IRQHandler
+                0x00000450                DMA5_IRQHandler
+                0x00000450                RTC_IRQHandler
+                0x00000450                PDB0_IRQHandler
+                0x00000450                Reserved54_IRQHandler
+                0x00000450                FTM6_Fault_IRQHandler
+                0x00000450                FTM2_Ch6_Ch7_IRQHandler
+                0x00000450                FTM6_Ch4_Ch5_IRQHandler
+                0x00000450                FTM3_Ch2_Ch3_IRQHandler
+                0x00000450                FTM6_Ch2_Ch3_IRQHandler
+                0x00000450                FTM2_Ch0_Ch1_IRQHandler
+                0x00000450                LPSPI1_IRQHandler
+                0x00000450                LPUART1_RxTx_IRQHandler
+                0x00000450                FTM4_Ovf_Reload_IRQHandler
+                0x00000450                RTC_Seconds_IRQHandler
+                0x00000450                FTM7_Ch0_Ch1_IRQHandler
+                0x00000450                CAN2_ORed_IRQHandler
+                0x00000450                Reserved110_IRQHandler
+                0x00000450                DMA11_IRQHandler
+                0x00000450                Reserved107_IRQHandler
+                0x00000450                ENET_TIMER_IRQHandler
+                0x00000450                Read_Collision_IRQHandler
+                0x00000450                CAN2_Error_IRQHandler
+                0x00000450                FTFC_IRQHandler
+                0x00000450                DMA7_IRQHandler
+                0x00000450                FTM1_Ch6_Ch7_IRQHandler
+                0x00000450                FTM5_Fault_IRQHandler
+                0x00000450                FTM6_Ovf_Reload_IRQHandler
+                0x00000450                LPIT0_Ch1_IRQHandler
+                0x00000450                FTM4_Ch0_Ch1_IRQHandler
+                0x00000450                FTM1_Ch4_Ch5_IRQHandler
+                0x00000450                FTM3_Ovf_Reload_IRQHandler
+                0x00000450                SAI0_Tx_IRQHandler
+                0x00000450                LPUART2_RxTx_IRQHandler
+                0x00000450                FTM5_Ch4_Ch5_IRQHandler
+                0x00000450                LPSPI0_IRQHandler
+                0x00000450                WDOG_EWM_IRQHandler
+                0x00000450                MemManage_Handler
+                0x00000450                Reserved83_IRQHandler
+                0x00000450                FTM0_Fault_IRQHandler
+                0x00000450                FTM6_Ch6_Ch7_IRQHandler
+                0x00000450                Reserved48_IRQHandler
+                0x00000450                SVC_Handler
+                0x00000450                ENET_TX_IRQHandler
+                0x00000450                ERM_single_fault_IRQHandler
+                0x00000450                FTM2_Fault_IRQHandler
+                0x00000450                FTM0_Ch2_Ch3_IRQHandler
+                0x00000450                DMA13_IRQHandler
+                0x00000450                FTM4_Ch2_Ch3_IRQHandler
+                0x00000450                FTM0_Ch0_Ch1_IRQHandler
+                0x00000450                FTM4_Ch4_Ch5_IRQHandler
+                0x00000450                FTM5_Ovf_Reload_IRQHandler
+                0x00000450                FTM3_Fault_IRQHandler
+                0x00000450                RCM_IRQHandler
+                0x00000450                DMA3_IRQHandler
+                0x00000450                Reserved100_IRQHandler
+                0x00000450                DMA0_IRQHandler
+                0x00000450                CAN1_ORed_IRQHandler
+                0x00000450                SAI0_Rx_IRQHandler
+                0x00000450                DMA15_IRQHandler
+                0x00000450                SCG_IRQHandler
+                0x00000450                PDB1_IRQHandler
+                0x00000450                CAN2_ORed_16_31_MB_IRQHandler
+                0x00000450                CAN0_Error_IRQHandler
+                0x00000450                LPI2C0_Master_IRQHandler
+                0x00000450                ENET_WAKE_IRQHandler
+                0x00000450                DMA4_IRQHandler
+                0x00000450                FTM1_Fault_IRQHandler
+                0x00000450                Reserved106_IRQHandler
+                0x00000450                ENET_ERR_IRQHandler
+                0x00000450                DMA_Error_IRQHandler
+                0x00000450                LVD_LVW_IRQHandler
+                0x00000450                ENET_STOP_IRQHandler
+                0x00000450                ENET_RX_IRQHandler
+                0x00000450                LPIT0_Ch2_IRQHandler
+                0x00000450                PORTA_IRQHandler
+                0x00000450                FTM5_Ch6_Ch7_IRQHandler
+                0x00000450                CAN1_ORed_16_31_MB_IRQHandler
+                0x00000450                MCM_IRQHandler
+                0x00000450                LPSPI2_IRQHandler
+                0x00000450                DMA12_IRQHandler
+                0x00000450                FTM7_Ovf_Reload_IRQHandler
+                0x00000450                FTM3_Ch4_Ch5_IRQHandler
+                0x00000450                CAN0_ORed_0_15_MB_IRQHandler
+                0x00000450                PORTE_IRQHandler
+                0x00000450                LPUART0_RxTx_IRQHandler
+                0x00000450                FTM6_Ch0_Ch1_IRQHandler
+                0x00000450                LPTMR0_IRQHandler
+                0x00000450                BusFault_Handler
+                0x00000450                FTM1_Ovf_Reload_IRQHandler
+                0x00000450                DMA8_IRQHandler
+                0x00000450                DMA10_IRQHandler
+                0x00000450                CAN0_Wake_Up_IRQHandler
+                0x00000450                QSPI_IRQHandler
+                0x00000450                CMP0_IRQHandler
+                0x00000450                Reserved52_IRQHandler
+                0x00000450                PORTC_IRQHandler
+                0x00000450                DMA6_IRQHandler
+                0x00000450                FTM1_Ch0_Ch1_IRQHandler
+                0x00000450                FLEXIO_IRQHandler
+                0x00000450                SAI1_Tx_IRQHandler
+                0x00000450                DMA1_IRQHandler
+                0x00000450                Reserved113_IRQHandler
+ .text          0x00000454      0xa50 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(unwind-arm.o)
+                0x00000730                _Unwind_GetCFA
+                0x00000734                __gnu_Unwind_RaiseException
+                0x00000794                __gnu_Unwind_ForcedUnwind
+                0x000007a8                __gnu_Unwind_Resume
+                0x000007ec                __gnu_Unwind_Resume_or_Rethrow
+                0x000007fc                _Unwind_Complete
+                0x00000800                _Unwind_DeleteException
+                0x0000080c                _Unwind_VRS_Get
+                0x0000085c                _Unwind_VRS_Set
+                0x000008ac                __gnu_Unwind_Backtrace
+                0x00000bf0                __aeabi_unwind_cpp_pr0
+                0x00000bf4                __aeabi_unwind_cpp_pr1
+                0x00000bf8                __aeabi_unwind_cpp_pr2
+                0x00000bfc                _Unwind_VRS_Pop
+ .text          0x00000ea4      0x1ac c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(libunwind.o)
+                0x00000ea4                __restore_core_regs
+                0x00000ea4                restore_core_regs
+                0x00000ebc                __gnu_Unwind_Restore_VFP
+                0x00000ec4                __gnu_Unwind_Save_VFP
+                0x00000ecc                __gnu_Unwind_Restore_VFP_D
+                0x00000ed4                __gnu_Unwind_Save_VFP_D
+                0x00000edc                __gnu_Unwind_Restore_VFP_D_16_to_31
+                0x00000ee4                __gnu_Unwind_Save_VFP_D_16_to_31
+                0x00000eec                __gnu_Unwind_Restore_WMMXD
+                0x00000f30                __gnu_Unwind_Save_WMMXD
+                0x00000f74                __gnu_Unwind_Restore_WMMXC
+                0x00000f88                __gnu_Unwind_Save_WMMXC
+                0x00000f9c                ___Unwind_RaiseException
+                0x00000f9c                _Unwind_RaiseException
+                0x00000fc0                _Unwind_Resume
+                0x00000fc0                ___Unwind_Resume
+                0x00000fe4                _Unwind_Resume_or_Rethrow
+                0x00000fe4                ___Unwind_Resume_or_Rethrow
+                0x00001008                _Unwind_ForcedUnwind
+                0x00001008                ___Unwind_ForcedUnwind
+                0x0000102c                ___Unwind_Backtrace
+                0x0000102c                _Unwind_Backtrace
+ .text          0x00001050      0x37c c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(pr-support.o)
+                0x000010a8                __gnu_unwind_execute
+                0x00001374                __gnu_unwind_frame
+                0x0000139c                _Unwind_GetRegionStart
+                0x000013a8                _Unwind_GetLanguageSpecificData
+                0x000013bc                _Unwind_GetDataRelBase
+                0x000013c4                _Unwind_GetTextRelBase
+ *(.text*)
+ .text.s32k148_uart_init
+                0x000013cc        0xc ./src/ross_files/s32k148_uart.o
+                0x000013cc                s32k148_uart_init
+ .text.s32k148_uart_send_byte
+                0x000013d8       0x14 ./src/ross_files/s32k148_uart.o
+                0x000013d8                s32k148_uart_send_byte
+ .text.s32k148_uart_receive_byte
+                0x000013ec       0x14 ./src/ross_files/s32k148_uart.o
+                0x000013ec                s32k148_uart_receive_byte
+ .text.s32k148_time_init
+                0x00001400        0xc ./src/ross_files/s32k148_time.o
+                0x00001400                s32k148_time_init
+ .text.s32k148_time_now
+                0x0000140c       0x10 ./src/ross_files/s32k148_time.o
+                0x0000140c                s32k148_time_now
+ .text._ZN3ros16normalizeSecNSecERmS0_
+                0x0000141c       0x58 ./src/ross_files/ros_lib/time.o
+                0x0000141c                ros::normalizeSecNSec(unsigned long&, unsigned long&)
+ .text._ZNK8std_msgs6String9serializeEPh
+                0x00001474       0x58 ./src/main.o
+                0x00001474                std_msgs::String::serialize(unsigned char*) const
+ .text._ZN8std_msgs6String11deserializeEPh
+                0x000014cc       0x7c ./src/main.o
+                0x000014cc                std_msgs::String::deserialize(unsigned char*)
+ .text._ZN8std_msgs6String7getTypeEv
+                0x00001548       0x1c ./src/main.o
+                0x00001548                std_msgs::String::getType()
+ .text._ZN8std_msgs6String6getMD5Ev
+                0x00001564       0x1c ./src/main.o
+                0x00001564                std_msgs::String::getMD5()
+ .text._ZN3ros4TimeC2Ev
+                0x00001580       0x24 ./src/main.o
+                0x00001580                ros::Time::Time()
+                0x00001580                ros::Time::Time()
+ .text._ZNK8std_msgs4Time9serializeEPh
+                0x000015a4       0xb0 ./src/main.o
+                0x000015a4                std_msgs::Time::serialize(unsigned char*) const
+ .text._ZN8std_msgs4Time11deserializeEPh
+                0x00001654       0xd0 ./src/main.o
+                0x00001654                std_msgs::Time::deserialize(unsigned char*)
+ .text._ZN8std_msgs4Time7getTypeEv
+                0x00001724       0x1c ./src/main.o
+                0x00001724                std_msgs::Time::getType()
+ .text._ZN8std_msgs4Time6getMD5Ev
+                0x00001740       0x1c ./src/main.o
+                0x00001740                std_msgs::Time::getMD5()
+ .text._ZNK14rosserial_msgs9TopicInfo9serializeEPh
+                0x0000175c      0x148 ./src/main.o
+                0x0000175c                rosserial_msgs::TopicInfo::serialize(unsigned char*) const
+ .text._ZN14rosserial_msgs9TopicInfo11deserializeEPh
+                0x000018a4      0x1c8 ./src/main.o
+                0x000018a4                rosserial_msgs::TopicInfo::deserialize(unsigned char*)
+ .text._ZN14rosserial_msgs9TopicInfo7getTypeEv
+                0x00001a6c       0x1c ./src/main.o
+                0x00001a6c                rosserial_msgs::TopicInfo::getType()
+ .text._ZN14rosserial_msgs9TopicInfo6getMD5Ev
+                0x00001a88       0x1c ./src/main.o
+                0x00001a88                rosserial_msgs::TopicInfo::getMD5()
+ .text._ZNK14rosserial_msgs3Log9serializeEPh
+                0x00001aa4       0x6c ./src/main.o
+                0x00001aa4                rosserial_msgs::Log::serialize(unsigned char*) const
+ .text._ZN14rosserial_msgs3Log11deserializeEPh
+                0x00001b10       0x94 ./src/main.o
+                0x00001b10                rosserial_msgs::Log::deserialize(unsigned char*)
+ .text._ZN14rosserial_msgs3Log7getTypeEv
+                0x00001ba4       0x1c ./src/main.o
+                0x00001ba4                rosserial_msgs::Log::getType()
+ .text._ZN14rosserial_msgs3Log6getMD5Ev
+                0x00001bc0       0x1c ./src/main.o
+                0x00001bc0                rosserial_msgs::Log::getMD5()
+ .text._ZNK14rosserial_msgs20RequestParamResponse9serializeEPh
+                0x00001bdc      0x210 ./src/main.o
+                0x00001bdc                rosserial_msgs::RequestParamResponse::serialize(unsigned char*) const
+ .text._ZN14rosserial_msgs20RequestParamResponse11deserializeEPh
+                0x00001dec      0x27c ./src/main.o
+                0x00001dec                rosserial_msgs::RequestParamResponse::deserialize(unsigned char*)
+ .text._ZN14rosserial_msgs20RequestParamResponse7getTypeEv
+                0x00002068       0x1c ./src/main.o
+                0x00002068                rosserial_msgs::RequestParamResponse::getType()
+ .text._ZN14rosserial_msgs20RequestParamResponse6getMD5Ev
+                0x00002084       0x1c ./src/main.o
+                0x00002084                rosserial_msgs::RequestParamResponse::getMD5()
+ .text._ZN3ros9PublisherC2EPKcPNS_3MsgEi
+                0x000020a0       0x30 ./src/main.o
+                0x000020a0                ros::Publisher::Publisher(char const*, ros::Msg*, int)
+                0x000020a0                ros::Publisher::Publisher(char const*, ros::Msg*, int)
+ .text._ZN3ros9Publisher7publishEPKNS_3MsgE
+                0x000020d0       0x2c ./src/main.o
+                0x000020d0                ros::Publisher::publish(ros::Msg const*)
+ .text._ZN3ros9Publisher15getEndpointTypeEv
+                0x000020fc       0x18 ./src/main.o
+                0x000020fc                ros::Publisher::getEndpointType()
+ .text._ZN15s32K148HardwareC2Ev
+                0x00002114       0x18 ./src/main.o
+                0x00002114                s32K148Hardware::s32K148Hardware()
+                0x00002114                s32K148Hardware::s32K148Hardware()
+ .text._ZN15s32K148Hardware4initEv
+                0x0000212c       0x18 ./src/main.o
+                0x0000212c                s32K148Hardware::init()
+ .text._ZN15s32K148Hardware4readEv
+                0x00002144       0x1c ./src/main.o
+                0x00002144                s32K148Hardware::read()
+ .text._ZN15s32K148Hardware5writeEPhi
+                0x00002160       0x34 ./src/main.o
+                0x00002160                s32K148Hardware::write(unsigned char*, int)
+ .text._ZN15s32K148Hardware4timeEv
+                0x00002194       0x18 ./src/main.o
+                0x00002194                s32K148Hardware::time()
+ .text.__cxa_pure_virtual
+                0x000021ac        0xc ./src/main.o
+                0x000021ac                __cxa_pure_virtual
+ .text._ZN3ros3MsgC2Ev
+                0x000021b8       0x20 ./src/main.o
+                0x000021b8                ros::Msg::Msg()
+                0x000021b8                ros::Msg::Msg()
+ .text._ZN8std_msgs6StringC2Ev
+                0x000021d8       0x24 ./src/main.o
+                0x000021d8                std_msgs::String::String()
+                0x000021d8                std_msgs::String::String()
+ .text.main     0x000021fc       0x60 ./src/main.o
+                0x000021fc                main
+ .text._ZN3ros15NodeHandleBase_C2Ev
+                0x0000225c       0x20 ./src/main.o
+                0x0000225c                ros::NodeHandleBase_::NodeHandleBase_()
+                0x0000225c                ros::NodeHandleBase_::NodeHandleBase_()
+ .text._ZN14rosserial_msgs20RequestParamResponseC2Ev
+                0x0000227c       0x24 ./src/main.o
+                0x0000227c                rosserial_msgs::RequestParamResponse::RequestParamResponse()
+                0x0000227c                rosserial_msgs::RequestParamResponse::RequestParamResponse()
+ .text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EEC2Ev
+                0x000022a0       0x44 ./src/main.o
+                0x000022a0                ros::NodeHandle_<s32K148Hardware, 25, 25, 512, 512>::NodeHandle_()
+                0x000022a0                ros::NodeHandle_<s32K148Hardware, 25, 25, 512, 512>::NodeHandle_()
+ .text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE8initNodeEv
+                0x000022e4       0x38 ./src/main.o
+                0x000022e4                ros::NodeHandle_<s32K148Hardware, 25, 25, 512, 512>::initNode()
+ .text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE9advertiseERNS_9PublisherE
+                0x0000231c       0x60 ./src/main.o
+                0x0000231c                ros::NodeHandle_<s32K148Hardware, 25, 25, 512, 512>::advertise(ros::Publisher&)
+ .text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE8spinOnceEv
+                0x0000237c      0x2f0 ./src/main.o
+                0x0000237c                ros::NodeHandle_<s32K148Hardware, 25, 25, 512, 512>::spinOnce()
+ .text._ZN8std_msgs4TimeC2Ev
+                0x0000266c       0x30 ./src/main.o
+                0x0000266c                std_msgs::Time::Time()
+                0x0000266c                std_msgs::Time::Time()
+ .text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE15requestSyncTimeEv
+                0x0000269c       0x38 ./src/main.o
+                0x0000269c                ros::NodeHandle_<s32K148Hardware, 25, 25, 512, 512>::requestSyncTime()
+ .text._ZN14rosserial_msgs9TopicInfoC2Ev
+                0x000026d4       0x24 ./src/main.o
+                0x000026d4                rosserial_msgs::TopicInfo::TopicInfo()
+                0x000026d4                rosserial_msgs::TopicInfo::TopicInfo()
+ .text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE15negotiateTopicsEv
+                0x000026f8      0x1c0 ./src/main.o
+                0x000026f8                ros::NodeHandle_<s32K148Hardware, 25, 25, 512, 512>::negotiateTopics()
+ .text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE8syncTimeEPh
+                0x000028b8       0x94 ./src/main.o
+                0x000028b8                ros::NodeHandle_<s32K148Hardware, 25, 25, 512, 512>::syncTime(unsigned char*)
+ .text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE7publishEiPKNS_3MsgE
+                0x0000294c      0x10c ./src/main.o
+                0x0000294c                ros::NodeHandle_<s32K148Hardware, 25, 25, 512, 512>::publish(int, ros::Msg const*)
+ .text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE6setNowERNS_4TimeE
+                0x00002a58       0x7c ./src/main.o
+                0x00002a58                ros::NodeHandle_<s32K148Hardware, 25, 25, 512, 512>::setNow(ros::Time&)
+ .text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE8logerrorEPKc
+                0x00002ad4       0x1c ./src/main.o
+                0x00002ad4                ros::NodeHandle_<s32K148Hardware, 25, 25, 512, 512>::logerror(char const*)
+ .text._ZN14rosserial_msgs3LogC2Ev
+                0x00002af0       0x24 ./src/main.o
+                0x00002af0                rosserial_msgs::Log::Log()
+                0x00002af0                rosserial_msgs::Log::Log()
+ .text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE3logEcPKc
+                0x00002b14       0x38 ./src/main.o
+                0x00002b14                ros::NodeHandle_<s32K148Hardware, 25, 25, 512, 512>::log(char, char const*)
+ .text._Z41__static_initialization_and_destruction_0ii
+                0x00002b4c       0x48 ./src/main.o
+ .text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE9connectedEv
+                0x00002b94       0x1c ./src/main.o
+                0x00002b94                ros::NodeHandle_<s32K148Hardware, 25, 25, 512, 512>::connected()
+ .text._GLOBAL__sub_I___cxa_pure_virtual
+                0x00002bb0       0x10 ./src/main.o
+ .text.SystemInit
+                0x00002bc0       0x44 ./Project_Settings/Startup_Code/system_S32K148.o
+                0x00002bc0                SystemInit
+ .text.init_data_bss
+                0x00002c04      0x110 ./Project_Settings/Startup_Code/startup.o
+                0x00002c04                init_data_bss
+ .text.sbrk     0x00002d14       0x28 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+                0x00002d14                sbrk
+ .text.malloc   0x00002d3c      0x108 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+                0x00002d3c                malloc
+ .text.realloc  0x00002e44       0x44 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+                0x00002e44                realloc
+ .text.free     0x00002e88       0x10 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+                0x00002e88                free
+ .text.exit     0x00002e98       0x38 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+                0x00002e98                exit
+ .text.memcpy   0x00002ed0       0x16 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memcpy.o)
+                0x00002ed0                memcpy
+ .text.strlen   0x00002ee6        0xe C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strlen.o)
+                0x00002ee6                strlen
+ .text.__fini_cpp
+                0x00002ef4       0x34 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+                0x00002ef4                __fini_cpp
+ .text._ExitProcess
+                0x00002f28        0x2 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+                0x00002f28                _ExitProcess
+ *fill*         0x00002f2a        0x2 
+ .text.__destroy_global_chain
+                0x00002f2c       0x18 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                0x00002f2c                __destroy_global_chain
+ .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+                0x00002f44       0x38 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+                0x00002f44                __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void**) const
+ .text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
+                0x00002f7c        0xc C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+                0x00002f7c                __cxxabiv1::__class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+ .text._ZN10__cxxabiv117__class_type_infoD2Ev
+                0x00002f88       0x14 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+                0x00002f88                __cxxabiv1::__class_type_info::~__class_type_info()
+                0x00002f88                __cxxabiv1::__class_type_info::~__class_type_info()
+ .text._ZN10__cxxabiv117__class_type_infoD0Ev
+                0x00002f9c       0x1c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+                0x00002f9c                __cxxabiv1::__class_type_info::~__class_type_info()
+ .text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+                0x00002fb8       0x18 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+                0x00002fb8                __cxxabiv1::__class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+ .text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+                0x00002fd0       0x2c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+                0x00002fd0                __cxxabiv1::__class_type_info::__do_catch(std::type_info const*, void**, unsigned int) const
+ .text._ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+                0x00002ffc       0x40 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+                0x00002ffc                __cxxabiv1::__class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+ .text._ZdlPv   0x0000303c        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(del_op.o)
+                0x0000303c                operator delete(void*)
+ .text._ZN10__cxxabiv120__si_class_type_infoD2Ev
+                0x00003040       0x14 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+                0x00003040                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+                0x00003040                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+ .text._ZN10__cxxabiv120__si_class_type_infoD0Ev
+                0x00003054       0x1c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+                0x00003054                __cxxabiv1::__si_class_type_info::~__si_class_type_info()
+ .text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+                0x00003070       0x3c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+                0x00003070                __cxxabiv1::__si_class_type_info::__do_find_public_src(int, void const*, __cxxabiv1::__class_type_info const*, void const*) const
+ .text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+                0x000030ac       0x88 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+                0x000030ac                __cxxabiv1::__si_class_type_info::__do_dyncast(int, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const
+ .text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+                0x00003134       0x2c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+                0x00003134                __cxxabiv1::__si_class_type_info::__do_upcast(__cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__upcast_result&) const
+ .text._ZNSt9type_infoD2Ev
+                0x00003160        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+                0x00003160                std::type_info::~type_info()
+                0x00003160                std::type_info::~type_info()
+ .text._ZNKSt9type_info14__is_pointer_pEv
+                0x00003164        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+                0x00003164                std::type_info::__is_pointer_p() const
+ .text._ZNKSt9type_info15__is_function_pEv
+                0x00003168        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+                0x00003168                std::type_info::__is_function_p() const
+ .text._ZNKSt9type_infoeqERKS_
+                0x0000316c       0x2c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+                0x0000316c                std::type_info::operator==(std::type_info const&) const
+ .text.abort    0x00003198       0x24 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(abort.o)
+                0x00003198                abort
+ .text.strcmp   0x000031bc       0x1a C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strcmp.o)
+                0x000031bc                strcmp
+ *fill*         0x000031d6        0x2 
+ .text.raise    0x000031d8       0x38 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(raise.o)
+                0x000031d8                raise
+ *(.rodata)
+ .rodata        0x00003210      0x148 ./src/main.o
+ *(.rodata*)
+ .rodata._ZTVN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EEE
+                0x00003358       0x14 ./src/main.o
+                0x00003358                vtable for ros::NodeHandle_<s32K148Hardware, 25, 25, 512, 512>
+ *fill*         0x0000336c        0x4 
+ .rodata._ZTVN3ros15NodeHandleBase_E
+                0x00003370       0x14 ./src/main.o
+                0x00003370                vtable for ros::NodeHandleBase_
+ *fill*         0x00003384        0x4 
+ .rodata._ZTVN14rosserial_msgs20RequestParamResponseE
+                0x00003388       0x18 ./src/main.o
+                0x00003388                vtable for rosserial_msgs::RequestParamResponse
+ .rodata._ZTVN14rosserial_msgs3LogE
+                0x000033a0       0x18 ./src/main.o
+                0x000033a0                vtable for rosserial_msgs::Log
+ .rodata._ZTVN14rosserial_msgs9TopicInfoE
+                0x000033b8       0x18 ./src/main.o
+                0x000033b8                vtable for rosserial_msgs::TopicInfo
+ .rodata._ZTVN8std_msgs4TimeE
+                0x000033d0       0x18 ./src/main.o
+                0x000033d0                vtable for std_msgs::Time
+ .rodata._ZTVN8std_msgs6StringE
+                0x000033e8       0x18 ./src/main.o
+                0x000033e8                vtable for std_msgs::String
+ .rodata._ZTVN3ros3MsgE
+                0x00003400       0x18 ./src/main.o
+                0x00003400                vtable for ros::Msg
+ .rodata._ZTSN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EEE
+                0x00003418       0x3d ./src/main.o
+                0x00003418                typeinfo name for ros::NodeHandle_<s32K148Hardware, 25, 25, 512, 512>
+ *fill*         0x00003455        0x3 
+ .rodata._ZTIN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EEE
+                0x00003458        0xc ./src/main.o
+                0x00003458                typeinfo for ros::NodeHandle_<s32K148Hardware, 25, 25, 512, 512>
+ .rodata._ZTSN3ros15NodeHandleBase_E
+                0x00003464       0x18 ./src/main.o
+                0x00003464                typeinfo name for ros::NodeHandleBase_
+ .rodata._ZTIN3ros15NodeHandleBase_E
+                0x0000347c        0x8 ./src/main.o
+                0x0000347c                typeinfo for ros::NodeHandleBase_
+ .rodata._ZTSN14rosserial_msgs20RequestParamResponseE
+                0x00003484       0x29 ./src/main.o
+                0x00003484                typeinfo name for rosserial_msgs::RequestParamResponse
+ *fill*         0x000034ad        0x3 
+ .rodata._ZTIN14rosserial_msgs20RequestParamResponseE
+                0x000034b0        0xc ./src/main.o
+                0x000034b0                typeinfo for rosserial_msgs::RequestParamResponse
+ .rodata._ZTSN14rosserial_msgs3LogE
+                0x000034bc       0x17 ./src/main.o
+                0x000034bc                typeinfo name for rosserial_msgs::Log
+ *fill*         0x000034d3        0x1 
+ .rodata._ZTIN14rosserial_msgs3LogE
+                0x000034d4        0xc ./src/main.o
+                0x000034d4                typeinfo for rosserial_msgs::Log
+ .rodata._ZTSN14rosserial_msgs9TopicInfoE
+                0x000034e0       0x1d ./src/main.o
+                0x000034e0                typeinfo name for rosserial_msgs::TopicInfo
+ *fill*         0x000034fd        0x3 
+ .rodata._ZTIN14rosserial_msgs9TopicInfoE
+                0x00003500        0xc ./src/main.o
+                0x00003500                typeinfo for rosserial_msgs::TopicInfo
+ .rodata._ZTSN8std_msgs4TimeE
+                0x0000350c       0x11 ./src/main.o
+                0x0000350c                typeinfo name for std_msgs::Time
+ *fill*         0x0000351d        0x3 
+ .rodata._ZTIN8std_msgs4TimeE
+                0x00003520        0xc ./src/main.o
+                0x00003520                typeinfo for std_msgs::Time
+ .rodata._ZTSN8std_msgs6StringE
+                0x0000352c       0x13 ./src/main.o
+                0x0000352c                typeinfo name for std_msgs::String
+ *fill*         0x0000353f        0x1 
+ .rodata._ZTIN8std_msgs6StringE
+                0x00003540        0xc ./src/main.o
+                0x00003540                typeinfo for std_msgs::String
+ .rodata._ZTSN3ros3MsgE
+                0x0000354c        0xb ./src/main.o
+                0x0000354c                typeinfo name for ros::Msg
+ *fill*         0x00003557        0x1 
+ .rodata._ZTIN3ros3MsgE
+                0x00003558        0x8 ./src/main.o
+                0x00003558                typeinfo for ros::Msg
+ .rodata._ZN14rosserial_msgsL12REQUESTPARAME
+                0x00003560       0x1c ./src/main.o
+ *fill*         0x0000357c        0x4 
+ .rodata._ZTVN10__cxxabiv117__class_type_infoE
+                0x00003580       0x2c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+                0x00003580                vtable for __cxxabiv1::__class_type_info
+ .rodata._ZTIN10__cxxabiv117__class_type_infoE
+                0x000035ac        0xc C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+                0x000035ac                typeinfo for __cxxabiv1::__class_type_info
+ .rodata._ZTSN10__cxxabiv117__class_type_infoE
+                0x000035b8       0x22 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+                0x000035b8                typeinfo name for __cxxabiv1::__class_type_info
+ *fill*         0x000035da        0x6 
+ .rodata._ZTVN10__cxxabiv120__si_class_type_infoE
+                0x000035e0       0x2c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+                0x000035e0                vtable for __cxxabiv1::__si_class_type_info
+ .rodata._ZTIN10__cxxabiv120__si_class_type_infoE
+                0x0000360c        0xc C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+                0x0000360c                typeinfo for __cxxabiv1::__si_class_type_info
+ .rodata._ZTSN10__cxxabiv120__si_class_type_infoE
+                0x00003618       0x25 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+                0x00003618                typeinfo name for __cxxabiv1::__si_class_type_info
+ *fill*         0x0000363d        0x3 
+ .rodata._ZTISt9type_info
+                0x00003640        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+                0x00003640                typeinfo for std::type_info
+ .rodata._ZTSSt9type_info
+                0x00003648        0xd C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+                0x00003648                typeinfo name for std::type_info
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.eh_frame)
+ *(.init)
+ *(.fini)
+                0x00003658                . = ALIGN (0x4)
+ *fill*         0x00003655        0x3 
+
+.vfp11_veneer   0x00003658        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00003658        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00003658        0x0
+ .iplt          0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+
+.ARM.extab      0x00003658       0xcc
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab.text._ZNK8std_msgs6String9serializeEPh
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN8std_msgs6String11deserializeEPh
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN8std_msgs6String7getTypeEv
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN8std_msgs6String6getMD5Ev
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN3ros4TimeC2Ev
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZNK8std_msgs4Time9serializeEPh
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN8std_msgs4Time11deserializeEPh
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN8std_msgs4Time7getTypeEv
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN8std_msgs4Time6getMD5Ev
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZNK14rosserial_msgs9TopicInfo9serializeEPh
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN14rosserial_msgs9TopicInfo11deserializeEPh
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN14rosserial_msgs9TopicInfo7getTypeEv
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN14rosserial_msgs9TopicInfo6getMD5Ev
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZNK14rosserial_msgs3Log9serializeEPh
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN14rosserial_msgs3Log11deserializeEPh
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN14rosserial_msgs3Log7getTypeEv
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN14rosserial_msgs3Log6getMD5Ev
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZNK14rosserial_msgs20RequestParamResponse9serializeEPh
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN14rosserial_msgs20RequestParamResponse11deserializeEPh
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN14rosserial_msgs20RequestParamResponse7getTypeEv
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN14rosserial_msgs20RequestParamResponse6getMD5Ev
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN3ros9PublisherC2EPKcPNS_3MsgEi
+                0x00003658        0x0 ./src/main.o
+ .ARM.extab.text._ZN3ros9Publisher7publishEPKNS_3MsgE
+                0x00003658        0xc ./src/main.o
+ .ARM.extab.text._ZN3ros9Publisher15getEndpointTypeEv
+                0x00003664        0x0 ./src/main.o
+ .ARM.extab.text._ZN15s32K148HardwareC2Ev
+                0x00003664        0x0 ./src/main.o
+ .ARM.extab.text._ZN15s32K148Hardware4initEv
+                0x00003664        0xc ./src/main.o
+ .ARM.extab.text._ZN15s32K148Hardware4readEv
+                0x00003670        0xc ./src/main.o
+ .ARM.extab.text._ZN15s32K148Hardware5writeEPhi
+                0x0000367c        0xc ./src/main.o
+ .ARM.extab.text._ZN15s32K148Hardware4timeEv
+                0x00003688        0xc ./src/main.o
+ .ARM.extab.text._ZN3ros3MsgC2Ev
+                0x00003694        0x0 ./src/main.o
+ .ARM.extab.text._ZN8std_msgs6StringC2Ev
+                0x00003694        0x0 ./src/main.o
+ .ARM.extab.text.main
+                0x00003694        0xc ./src/main.o
+ .ARM.extab.text._ZN3ros15NodeHandleBase_C2Ev
+                0x000036a0        0x0 ./src/main.o
+ .ARM.extab.text._ZN14rosserial_msgs20RequestParamResponseC2Ev
+                0x000036a0        0x0 ./src/main.o
+ .ARM.extab.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EEC2Ev
+                0x000036a0        0x0 ./src/main.o
+ .ARM.extab.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE8initNodeEv
+                0x000036a0        0xc ./src/main.o
+ .ARM.extab.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE9advertiseERNS_9PublisherE
+                0x000036ac        0x0 ./src/main.o
+ .ARM.extab.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE8spinOnceEv
+                0x000036ac        0xc ./src/main.o
+ .ARM.extab.text._ZN8std_msgs4TimeC2Ev
+                0x000036b8        0x0 ./src/main.o
+ .ARM.extab.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE15requestSyncTimeEv
+                0x000036b8        0xc ./src/main.o
+ .ARM.extab.text._ZN14rosserial_msgs9TopicInfoC2Ev
+                0x000036c4        0x0 ./src/main.o
+ .ARM.extab.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE15negotiateTopicsEv
+                0x000036c4        0xc ./src/main.o
+ .ARM.extab.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE8syncTimeEPh
+                0x000036d0        0xc ./src/main.o
+ .ARM.extab.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE7publishEiPKNS_3MsgE
+                0x000036dc        0xc ./src/main.o
+ .ARM.extab.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE6setNowERNS_4TimeE
+                0x000036e8        0xc ./src/main.o
+ .ARM.extab.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE8logerrorEPKc
+                0x000036f4        0xc ./src/main.o
+ .ARM.extab.text._ZN14rosserial_msgs3LogC2Ev
+                0x00003700        0x0 ./src/main.o
+ .ARM.extab.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE3logEcPKc
+                0x00003700        0xc ./src/main.o
+ .ARM.extab.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE9connectedEv
+                0x0000370c        0x0 ./src/main.o
+ .ARM.extab     0x0000370c       0x18 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(pr-support.o)
+
+.ARM            0x00003724      0x1d0
+                0x00003724                __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx.text._ZN3ros16normalizeSecNSecERmS0_
+                0x000037dc        0x0 ./src/ross_files/ros_lib/time.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZNK8std_msgs6String9serializeEPh
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN8std_msgs6String11deserializeEPh
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN8std_msgs6String7getTypeEv
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN8std_msgs6String6getMD5Ev
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN3ros4TimeC2Ev
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZNK8std_msgs4Time9serializeEPh
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN8std_msgs4Time11deserializeEPh
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN8std_msgs4Time7getTypeEv
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN8std_msgs4Time6getMD5Ev
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZNK14rosserial_msgs9TopicInfo9serializeEPh
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN14rosserial_msgs9TopicInfo11deserializeEPh
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN14rosserial_msgs9TopicInfo7getTypeEv
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN14rosserial_msgs9TopicInfo6getMD5Ev
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZNK14rosserial_msgs3Log9serializeEPh
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN14rosserial_msgs3Log11deserializeEPh
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN14rosserial_msgs3Log7getTypeEv
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN14rosserial_msgs3Log6getMD5Ev
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZNK14rosserial_msgs20RequestParamResponse9serializeEPh
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN14rosserial_msgs20RequestParamResponse11deserializeEPh
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN14rosserial_msgs20RequestParamResponse7getTypeEv
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN14rosserial_msgs20RequestParamResponse6getMD5Ev
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN3ros9PublisherC2EPKcPNS_3MsgEi
+                0x000037dc        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN3ros9Publisher7publishEPKNS_3MsgE
+                0x000037dc        0x8 ./src/main.o
+ .ARM.exidx.text._ZN3ros9Publisher15getEndpointTypeEv
+                0x000037e4        0x8 ./src/main.o
+ .ARM.exidx.text._ZN15s32K148HardwareC2Ev
+                0x000037ec        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN15s32K148Hardware4initEv
+                0x000037ec        0x8 ./src/main.o
+ .ARM.exidx.text._ZN15s32K148Hardware4readEv
+                0x000037f4        0x8 ./src/main.o
+ .ARM.exidx.text._ZN15s32K148Hardware5writeEPhi
+                0x000037fc        0x8 ./src/main.o
+ .ARM.exidx.text._ZN15s32K148Hardware4timeEv
+                0x00003804        0x8 ./src/main.o
+ .ARM.exidx.text.__cxa_pure_virtual
+                0x0000380c        0x8 ./src/main.o
+ .ARM.exidx.text._ZN3ros3MsgC2Ev
+                0x00003814        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN8std_msgs6StringC2Ev
+                0x00003814        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text.main
+                0x00003814        0x8 ./src/main.o
+ .ARM.exidx.text._ZN3ros15NodeHandleBase_C2Ev
+                0x0000381c        0x8 ./src/main.o
+ .ARM.exidx.text._ZN14rosserial_msgs20RequestParamResponseC2Ev
+                0x00003824        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EEC2Ev
+                0x00003824        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE8initNodeEv
+                0x00003824        0x8 ./src/main.o
+ .ARM.exidx.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE9advertiseERNS_9PublisherE
+                0x0000382c        0x8 ./src/main.o
+ .ARM.exidx.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE8spinOnceEv
+                0x00003834        0x8 ./src/main.o
+ .ARM.exidx.text._ZN8std_msgs4TimeC2Ev
+                0x0000383c        0x8 ./src/main.o
+ .ARM.exidx.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE15requestSyncTimeEv
+                0x00003844        0x8 ./src/main.o
+ .ARM.exidx.text._ZN14rosserial_msgs9TopicInfoC2Ev
+                0x0000384c        0x8 ./src/main.o
+ .ARM.exidx.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE15negotiateTopicsEv
+                0x00003854        0x8 ./src/main.o
+ .ARM.exidx.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE8syncTimeEPh
+                0x0000385c        0x8 ./src/main.o
+ .ARM.exidx.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE7publishEiPKNS_3MsgE
+                0x00003864        0x8 ./src/main.o
+ .ARM.exidx.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE6setNowERNS_4TimeE
+                0x0000386c        0x8 ./src/main.o
+ .ARM.exidx.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE8logerrorEPKc
+                0x00003874        0x8 ./src/main.o
+ .ARM.exidx.text._ZN14rosserial_msgs3LogC2Ev
+                0x0000387c        0x8 ./src/main.o
+ .ARM.exidx.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE3logEcPKc
+                0x00003884        0x8 ./src/main.o
+ .ARM.exidx.text._Z41__static_initialization_and_destruction_0ii
+                0x0000388c        0x8 ./src/main.o
+ .ARM.exidx.text._ZN3ros11NodeHandle_I15s32K148HardwareLi25ELi25ELi512ELi512EE9connectedEv
+                0x00003894        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._GLOBAL__sub_I___cxa_pure_virtual
+                0x00003894        0x0 ./src/main.o
+                                  0x8 (size before relaxing)
+ .ARM.exidx     0x00003724       0x80 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(unwind-arm.o)
+                                 0xd8 (size before relaxing)
+ .ARM.exidx     0x000037a4       0x38 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(pr-support.o)
+                                 0x48 (size before relaxing)
+ .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PPv
+                0x00003894        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info20__do_find_public_srcEiPKvPKS0_S2_
+                0x0000389c        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .ARM.exidx.text._ZN10__cxxabiv117__class_type_infoD2Ev
+                0x000038a4        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .ARM.exidx.text._ZN10__cxxabiv117__class_type_infoD0Ev
+                0x000038ac        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info11__do_upcastEPKS0_PKvRNS0_15__upcast_resultE
+                0x000038ac        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info10__do_catchEPKSt9type_infoPPvj
+                0x000038b4        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .ARM.exidx.text._ZNK10__cxxabiv117__class_type_info12__do_dyncastEiNS0_10__sub_kindEPKS0_PKvS3_S5_RNS0_16__dyncast_resultE
+                0x000038bc        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .ARM.exidx.text._ZdlPv
+                0x000038c4        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(del_op.o)
+ .ARM.exidx.text._ZN10__cxxabiv120__si_class_type_infoD2Ev
+                0x000038cc        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+ .ARM.exidx.text._ZN10__cxxabiv120__si_class_type_infoD0Ev
+                0x000038d4        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info20__do_find_public_srcEiPKvPKNS_17__class_type_infoES2_
+                0x000038d4        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+ .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info12__do_dyncastEiNS_17__class_type_info10__sub_kindEPKS1_PKvS4_S6_RNS1_16__dyncast_resultE
+                0x000038dc        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+ .ARM.exidx.text._ZNK10__cxxabiv120__si_class_type_info11__do_upcastEPKNS_17__class_type_infoEPKvRNS1_15__upcast_resultE
+                0x000038e4        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+ .ARM.exidx.text._ZNSt9type_infoD2Ev
+                0x000038ec        0x8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .ARM.exidx.text._ZNKSt9type_info14__is_pointer_pEv
+                0x000038f4        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZNKSt9type_info15__is_function_pEv
+                0x000038f4        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+                                  0x8 (size before relaxing)
+ .ARM.exidx.text._ZNKSt9type_infoeqERKS_
+                0x000038f4        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+                                  0x8 (size before relaxing)
+                0x000038f4                __exidx_end = .
+
+.rel.dyn        0x000038f4        0x0
+ .rel.iplt      0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+
+.ctors          0x000038f4        0x0
+                0x000038f4                __CTOR_LIST__ = .
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+                0x000038f4                __CTOR_END__ = .
+
+.dtors          0x000038f4        0x0
+                0x000038f4                __DTOR_LIST__ = .
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+                0x000038f4                __DTOR_END__ = .
+
+.preinit_array  0x000038f4        0x0
+                0x000038f4                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array*)
+                0x000038f4                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x000038f4        0x4
+                0x000038f4                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array*)
+ .init_array    0x000038f4        0x4 ./src/main.o
+                0x000038f8                PROVIDE (__init_array_end, .)
+
+.fini_array     0x000038f8        0x0
+                0x000038f8                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array*)
+                0x000038f8                PROVIDE (__fini_array_end, .)
+                0x000038f8                __etext = .
+                0x000038f8                __DATA_ROM = .
+
+.interrupts_ram
+                0x1ffe0000      0x400
+                0x1ffe0000                . = ALIGN (0x4)
+                0x1ffe0000                __VECTOR_RAM__ = .
+                0x1ffe0000                __interrupts_ram_start__ = .
+ *(.m_interrupts_ram)
+                0x1ffe0400                . = (. + M_VECTOR_RAM_SIZE)
+ *fill*         0x1ffe0000      0x400 
+                0x1ffe0400                . = ALIGN (0x4)
+                0x1ffe0400                __interrupts_ram_end__ = .
+                0x1ffe0000                __VECTOR_RAM = DEFINED (__flash_vector_table__)?ORIGIN (m_interrupts):__VECTOR_RAM__
+                0x00000400                __RAM_VECTOR_TABLE_SIZE = DEFINED (__flash_vector_table__)?0x0:(__interrupts_ram_end__ - __interrupts_ram_start__)
+
+.data           0x1ffe0400       0x18 load address 0x000038f8
+                0x1ffe0400                . = ALIGN (0x4)
+                0x1ffe0400                __DATA_RAM = .
+                0x1ffe0400                __data_start__ = .
+ *(.data)
+ *(.data*)
+ .data.hello    0x1ffe0400        0xd ./src/main.o
+                0x1ffe0400                hello
+ *fill*         0x1ffe040d        0x3 
+ .data.tail     0x1ffe0410        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+ .data._ZN10__cxxabiv119__terminate_handlerE
+                0x1ffe0414        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(cxxabi_terminate_override.o)
+                0x1ffe0414                __cxxabiv1::__terminate_handler
+ *(.jcr*)
+                0x1ffe0418                . = ALIGN (0x4)
+                0x1ffe0418                __data_end__ = .
+                0x00003910                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x00003910                __CODE_ROM = __DATA_END
+
+.igot.plt       0x1ffe0418        0x0 load address 0x00003910
+ .igot.plt      0x00000000        0x0 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m/__arm_start.o
+
+.code           0x1ffe0418        0x0 load address 0x00003910
+                0x1ffe0418                . = ALIGN (0x4)
+                0x1ffe0418                __CODE_RAM = .
+                0x1ffe0418                __code_start__ = .
+ *(.code_ram)
+                0x1ffe0418                . = ALIGN (0x4)
+                0x1ffe0418                __code_end__ = .
+                0x00003910                __CODE_END = (__CODE_ROM + (__code_end__ - __code_start__))
+
+.customSectionBlock
+ *(.customSection)
+
+.bss            0x20000000      0x578
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                __BSS_START = .
+                0x20000000                __bss_start__ = .
+ *(.bss)
+ *(.bss*)
+ .bss.nh        0x20000000      0x52c ./src/main.o
+                0x20000000                nh
+ .bss.str_msg   0x2000052c        0x8 ./src/main.o
+                0x2000052c                str_msg
+ .bss.chatter   0x20000534       0x14 ./src/main.o
+                0x20000534                chatter
+ .bss.head      0x20000548        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+ .bss.heap_end.4311
+                0x2000054c        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+ .bss.__stdio_exit
+                0x20000550        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+                0x20000550                __stdio_exit
+ .bss.__console_exit
+                0x20000554        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+                0x20000554                __console_exit
+ .bss.__global_destructor_chain
+                0x20000558        0x4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                0x20000558                __global_destructor_chain
+ *(COMMON)
+ COMMON         0x2000055c       0x1c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(signal.o)
+                0x2000055c                signal_funcs
+                0x20000578                . = ALIGN (0x4)
+                0x20000578                __bss_end__ = .
+                0x20000578                __BSS_END = .
+
+.heap           0x20000578      0x400
+                0x20000578                . = ALIGN (0x8)
+                0x20000578                __end__ = .
+                0x20000578                PROVIDE (end, .)
+                0x20000578                PROVIDE (_end, .)
+                0x20000578                PROVIDE (__end, .)
+                0x20000578                __HeapBase = .
+                0x20000978                . = (. + HEAP_SIZE)
+ *fill*         0x20000578      0x400 
+                0x20000978                __HeapLimit = .
+                0x20000978                __heap_limit = .
+
+.stack          0x20000978      0x400
+                0x20000978                . = ALIGN (0x8)
+                0x20000d78                . = (. + STACK_SIZE)
+ *fill*         0x20000978      0x400 
+                0x2001f000                __StackTop = (ORIGIN (m_data_2) + 0x1f000)
+                0x2001ec00                __StackLimit = (__StackTop - STACK_SIZE)
+                0x2001f000                PROVIDE (__stack, __StackTop)
+
+.ARM.attributes
+                0x00000000       0x31
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x33 ./src/ross_files/s32k148_uart.o
+ .ARM.attributes
+                0x00000033       0x33 ./src/ross_files/s32k148_time.o
+ .ARM.attributes
+                0x00000066       0x33 ./src/ross_files/ros_lib/time.o
+ .ARM.attributes
+                0x00000099       0x33 ./src/main.o
+ .ARM.attributes
+                0x000000cc       0x33 ./Project_Settings/Startup_Code/system_S32K148.o
+ .ARM.attributes
+                0x000000ff       0x1b ./Project_Settings/Startup_Code/startup_S32K148.o
+ .ARM.attributes
+                0x0000011a       0x33 ./Project_Settings/Startup_Code/startup.o
+ .ARM.attributes
+                0x0000014d       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+ .ARM.attributes
+                0x00000180       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .ARM.attributes
+                0x000001b3       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memcpy.o)
+ .ARM.attributes
+                0x000001e6       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strlen.o)
+ .ARM.attributes
+                0x00000219       0x2e c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(unwind-arm.o)
+ .ARM.attributes
+                0x00000247       0x1e c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(libunwind.o)
+ .ARM.attributes
+                0x00000265       0x2e c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(pr-support.o)
+ .ARM.attributes
+                0x00000293       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .ARM.attributes
+                0x000002c6       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .ARM.attributes
+                0x000002f9       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(cxxabi_terminate_override.o)
+ .ARM.attributes
+                0x0000032c       0x2e C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .ARM.attributes
+                0x0000035a       0x2e C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(del_op.o)
+ .ARM.attributes
+                0x00000388       0x2e C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+ .ARM.attributes
+                0x000003b6       0x2e C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .ARM.attributes
+                0x000003e4       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(abort.o)
+ .ARM.attributes
+                0x00000417       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strcmp.o)
+ .ARM.attributes
+                0x0000044a       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(raise.o)
+ .ARM.attributes
+                0x0000047d       0x33 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(signal.o)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region m_data_2 overflowed with stack and heap)
+OUTPUT(S32K148_ross_test.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x59ab
+ .debug_info    0x00000000       0xd7 ./src/ross_files/s32k148_uart.o
+ .debug_info    0x000000d7       0xcf ./src/ross_files/s32k148_time.o
+ .debug_info    0x000001a6     0x107d ./src/ross_files/ros_lib/time.o
+ .debug_info    0x00001223     0x2dff ./src/main.o
+ .debug_info    0x00004022      0x63e ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_info    0x00004660       0x91 ./Project_Settings/Startup_Code/startup_S32K148.o
+ .debug_info    0x000046f1      0x41d ./Project_Settings/Startup_Code/startup.o
+ .debug_info    0x00004b0e      0x33e C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+ .debug_info    0x00004e4c      0x111 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .debug_info    0x00004f5d      0x111 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memcpy.o)
+ .debug_info    0x0000506e       0xeb C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strlen.o)
+ .debug_info    0x00005159      0x14a C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_info    0x000052a3      0x2b3 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_info    0x00005556       0x62 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(cxxabi_terminate_override.o)
+ .debug_info    0x000055b8       0xb2 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(abort.o)
+ .debug_info    0x0000566a      0x115 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strcmp.o)
+ .debug_info    0x0000577f      0x108 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(raise.o)
+ .debug_info    0x00005887      0x124 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(signal.o)
+
+.debug_abbrev   0x00000000     0x148e
+ .debug_abbrev  0x00000000       0x95 ./src/ross_files/s32k148_uart.o
+ .debug_abbrev  0x00000095       0x82 ./src/ross_files/s32k148_time.o
+ .debug_abbrev  0x00000117      0x308 ./src/ross_files/ros_lib/time.o
+ .debug_abbrev  0x0000041f      0x5fd ./src/main.o
+ .debug_abbrev  0x00000a1c      0x118 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_abbrev  0x00000b34       0x14 ./Project_Settings/Startup_Code/startup_S32K148.o
+ .debug_abbrev  0x00000b48      0x101 ./Project_Settings/Startup_Code/startup.o
+ .debug_abbrev  0x00000c49      0x18d C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+ .debug_abbrev  0x00000dd6       0x91 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .debug_abbrev  0x00000e67       0x95 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memcpy.o)
+ .debug_abbrev  0x00000efc       0x7a C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strlen.o)
+ .debug_abbrev  0x00000f76       0xae C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_abbrev  0x00001024      0x1d3 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_abbrev  0x000011f7       0x55 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(cxxabi_terminate_override.o)
+ .debug_abbrev  0x0000124c       0x5c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(abort.o)
+ .debug_abbrev  0x000012a8       0x7a C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strcmp.o)
+ .debug_abbrev  0x00001322       0xa6 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(raise.o)
+ .debug_abbrev  0x000013c8       0xc6 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(signal.o)
+
+.debug_aranges  0x00000000      0x480
+ .debug_aranges
+                0x00000000       0x30 ./src/ross_files/s32k148_uart.o
+ .debug_aranges
+                0x00000030       0x28 ./src/ross_files/s32k148_time.o
+ .debug_aranges
+                0x00000058       0x38 ./src/ross_files/ros_lib/time.o
+ .debug_aranges
+                0x00000090      0x1b8 ./src/main.o
+ .debug_aranges
+                0x00000248       0x30 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_aranges
+                0x00000278       0x20 ./Project_Settings/Startup_Code/startup_S32K148.o
+ .debug_aranges
+                0x00000298       0x20 ./Project_Settings/Startup_Code/startup.o
+ .debug_aranges
+                0x000002b8       0x40 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+ .debug_aranges
+                0x000002f8       0x28 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .debug_aranges
+                0x00000320       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memcpy.o)
+ .debug_aranges
+                0x00000340       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strlen.o)
+ .debug_aranges
+                0x00000360       0x30 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_aranges
+                0x00000390       0x58 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_aranges
+                0x000003e8       0x18 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(cxxabi_terminate_override.o)
+ .debug_aranges
+                0x00000400       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(abort.o)
+ .debug_aranges
+                0x00000420       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strcmp.o)
+ .debug_aranges
+                0x00000440       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(raise.o)
+ .debug_aranges
+                0x00000460       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(signal.o)
+
+.debug_ranges   0x00000000      0x250
+ .debug_ranges  0x00000000       0x20 ./src/ross_files/s32k148_uart.o
+ .debug_ranges  0x00000020       0x18 ./src/ross_files/s32k148_time.o
+ .debug_ranges  0x00000038       0x28 ./src/ross_files/ros_lib/time.o
+ .debug_ranges  0x00000060      0x1c0 ./src/main.o
+ .debug_ranges  0x00000220       0x20 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_ranges  0x00000240       0x10 ./Project_Settings/Startup_Code/startup.o
+
+.debug_macro    0x00000000    0x38cd2
+ .debug_macro   0x00000000       0xbb ./src/ross_files/s32k148_uart.o
+ .debug_macro   0x000000bb      0x868 ./src/ross_files/s32k148_uart.o
+ .debug_macro   0x00000923       0x52 ./src/ross_files/s32k148_uart.o
+ .debug_macro   0x00000975       0xa0 ./src/ross_files/s32k148_uart.o
+ .debug_macro   0x00000a15       0x16 ./src/ross_files/s32k148_uart.o
+ .debug_macro   0x00000a2b       0x16 ./src/ross_files/s32k148_uart.o
+ .debug_macro   0x00000a41       0x64 ./src/ross_files/s32k148_uart.o
+ .debug_macro   0x00000aa5      0x185 ./src/ross_files/s32k148_uart.o
+ .debug_macro   0x00000c2a      0x140 ./src/ross_files/s32k148_uart.o
+ .debug_macro   0x00000d6a       0x9d ./src/ross_files/s32k148_uart.o
+ .debug_macro   0x00000e07       0x10 ./src/ross_files/s32k148_uart.o
+ .debug_macro   0x00000e17      0x15b ./src/ross_files/s32k148_uart.o
+ .debug_macro   0x00000f72       0x28 ./src/ross_files/s32k148_uart.o
+ .debug_macro   0x00000f9a       0x58 ./src/ross_files/s32k148_uart.o
+ .debug_macro   0x00000ff2    0x11ce7 ./src/ross_files/s32k148_uart.o
+ .debug_macro   0x00012cd9       0xb6 ./src/ross_files/s32k148_time.o
+ .debug_macro   0x00012d8f    0x11cf9 ./src/ross_files/s32k148_time.o
+ .debug_macro   0x00024a88      0x24c ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00024cd4      0x898 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x0002556c      0x18c ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x000256f8      0x14e ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00025846       0x16 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x0002585c       0x16 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00025872       0x10 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00025882       0x2e ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x000258b0       0x28 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x000258d8       0x16 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x000258ee       0xd6 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x000259c4       0x80 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00025a44      0x194 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00025bd8       0xac ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00025c84       0x10 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00025c94      0x11f ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00025db3      0x193 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00025f46       0x58 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00025f9e       0x40 ./src/ross_files/ros_lib/time.o
+ .debug_macro   0x00025fde      0x255 ./src/main.o
+ .debug_macro   0x00026233    0x11cf9 ./src/main.o
+ .debug_macro   0x00037f2c       0xe8 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00038014       0x10 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00038024       0x6d ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00038091      0xb08 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00038b99       0x22 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00038bbb       0x2e ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_macro   0x00038be9       0xe9 ./Project_Settings/Startup_Code/startup.o
+
+.debug_line     0x00000000     0x2207
+ .debug_line    0x00000000      0x1f3 ./src/ross_files/s32k148_uart.o
+ .debug_line    0x000001f3      0x1e3 ./src/ross_files/s32k148_time.o
+ .debug_line    0x000003d6      0x5b3 ./src/ross_files/ros_lib/time.o
+ .debug_line    0x00000989      0xc0b ./src/main.o
+ .debug_line    0x00001594      0x299 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_line    0x0000182d       0x83 ./Project_Settings/Startup_Code/startup_S32K148.o
+ .debug_line    0x000018b0      0x262 ./Project_Settings/Startup_Code/startup.o
+ .debug_line    0x00001b12      0x15d C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+ .debug_line    0x00001c6f       0xa4 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .debug_line    0x00001d13       0x88 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memcpy.o)
+ .debug_line    0x00001d9b       0x84 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strlen.o)
+ .debug_line    0x00001e1f       0x74 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_line    0x00001e93      0x107 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_line    0x00001f9a       0x66 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(cxxabi_terminate_override.o)
+ .debug_line    0x00002000       0x77 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(abort.o)
+ .debug_line    0x00002077       0x7c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strcmp.o)
+ .debug_line    0x000020f3       0x8a C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(raise.o)
+ .debug_line    0x0000217d       0x8a C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(signal.o)
+
+.debug_str      0x00000000    0x8144c
+ .debug_str     0x00000000    0x774f7 ./src/ross_files/s32k148_uart.o
+                              0x7758f (size before relaxing)
+ .debug_str     0x000774f7       0xc7 ./src/ross_files/s32k148_time.o
+                              0x77596 (size before relaxing)
+ .debug_str     0x000775be     0x2383 ./src/ross_files/ros_lib/time.o
+                               0x5c29 (size before relaxing)
+ .debug_str     0x00079941     0x1130 ./src/main.o
+                              0x7a2dd (size before relaxing)
+ .debug_str     0x0007aa71     0x5ff6 ./Project_Settings/Startup_Code/system_S32K148.o
+                              0x7d4e2 (size before relaxing)
+ .debug_str     0x00080a67      0x12f ./Project_Settings/Startup_Code/startup.o
+                              0x7d3c3 (size before relaxing)
+ .debug_str     0x00080b96      0x213 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+                                0x2df (size before relaxing)
+ .debug_str     0x00080da9       0x35 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+                                0x23c (size before relaxing)
+ .debug_str     0x00080dde       0x1c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memcpy.o)
+                                0x217 (size before relaxing)
+ .debug_str     0x00080dfa       0x24 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strlen.o)
+                                0x21f (size before relaxing)
+ .debug_str     0x00080e1e      0x285 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+                                0x28e (size before relaxing)
+ .debug_str     0x000810a3      0x103 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+                                0x2b5 (size before relaxing)
+ .debug_str     0x000811a6      0x204 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(cxxabi_terminate_override.o)
+                                0x24d (size before relaxing)
+ .debug_str     0x000813aa       0x19 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(abort.o)
+                                0x21e (size before relaxing)
+ .debug_str     0x000813c3       0x26 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strcmp.o)
+                                0x231 (size before relaxing)
+ .debug_str     0x000813e9       0x38 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(raise.o)
+                                0x240 (size before relaxing)
+ .debug_str     0x00081421       0x2b C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(signal.o)
+                                0x258 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 ./src/ross_files/s32k148_uart.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./src/ross_files/s32k148_time.o
+ .comment       0x00000000       0x71 ./src/ross_files/ros_lib/time.o
+ .comment       0x00000000       0x71 ./src/main.o
+ .comment       0x00000000       0x71 ./Project_Settings/Startup_Code/system_S32K148.o
+ .comment       0x00000000       0x71 ./Project_Settings/Startup_Code/startup.o
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memcpy.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strlen.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(cxxabi_terminate_override.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(abort.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strcmp.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(raise.o)
+ .comment       0x00000000       0x71 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(signal.o)
+
+.debug_frame    0x00000000     0x12e8
+ .debug_frame   0x00000000       0x78 ./src/ross_files/s32k148_uart.o
+ .debug_frame   0x00000078       0x50 ./src/ross_files/s32k148_time.o
+ .debug_frame   0x000000c8       0xa4 ./src/ross_files/ros_lib/time.o
+ .debug_frame   0x0000016c      0x7bc ./src/main.o
+ .debug_frame   0x00000928       0x80 ./Project_Settings/Startup_Code/system_S32K148.o
+ .debug_frame   0x000009a8       0x38 ./Project_Settings/Startup_Code/startup.o
+ .debug_frame   0x000009e0       0x90 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+ .debug_frame   0x00000a70       0x3c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .debug_frame   0x00000aac       0x28 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memcpy.o)
+ .debug_frame   0x00000ad4       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strlen.o)
+ .debug_frame   0x00000af4      0x2f4 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(unwind-arm.o)
+ .debug_frame   0x00000de8      0x104 c:/nxp/s32ds_arm_v2.0/cross_tools/gcc-arm-none-eabi-4_9/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m\libgcc.a(pr-support.o)
+ .debug_frame   0x00000eec       0x50 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_frame   0x00000f3c       0xac C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_frame   0x00000fe8       0xdc C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(class_type_info.o)
+ .debug_frame   0x000010c4       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(del_op.o)
+ .debug_frame   0x000010e4       0xd8 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(si_class_type_info.o)
+ .debug_frame   0x000011bc       0x94 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libsupc++.a(tinfo.o)
+ .debug_frame   0x00001250       0x2c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(abort.o)
+ .debug_frame   0x0000127c       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strcmp.o)
+ .debug_frame   0x0000129c       0x2c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(raise.o)
+ .debug_frame   0x000012c8       0x20 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(signal.o)
+
+.debug_loc      0x00000000      0x69e
+ .debug_loc     0x00000000      0x2c3 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(alloc.o)
+ .debug_loc     0x000002c3       0x5d C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(exit.o)
+ .debug_loc     0x00000320       0x77 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(memcpy.o)
+ .debug_loc     0x00000397       0x26 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strlen.o)
+ .debug_loc     0x000003bd       0x9d C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(gcc_ctor_dtor.o)
+ .debug_loc     0x0000045a      0x144 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\librt.a(__arm_eabi_init.o)
+ .debug_loc     0x0000059e       0x2c C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(abort.o)
+ .debug_loc     0x000005ca       0x44 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(strcmp.o)
+ .debug_loc     0x0000060e       0x7d C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(raise.o)
+ .debug_loc     0x0000068b       0x13 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/lib/armv7e-m\libc99.a(signal.o)
