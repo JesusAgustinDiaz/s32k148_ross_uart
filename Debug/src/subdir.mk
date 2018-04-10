@@ -30,7 +30,7 @@ CPP_DEPS += \
 # Each subdirectory must supply rules for building sources it contributes
 src/main.o: ../src/main.cpp
 	@echo 'Building file: $<'
-	@echo 'Executing target #4 $<'
+	@echo 'Executing target #5 $<'
 	@echo 'Invoking: Standard S32DS C++ Compiler'
 	arm-none-eabi-g++ "@src/main.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "src/main.o" "$<"
 	@echo 'Finished building: $<'

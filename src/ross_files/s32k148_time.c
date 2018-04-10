@@ -1,44 +1,38 @@
 #include "s32k148_time.h"
 
 #include "S32k148.h"
+#include "../drivers/lptmr.h"
 
-#define CLOCK_TICKS_PER_MS F_CPU / 1000UL
-// Timer0 is 8 bits and is prescaled by 64
-#define CLOCK_TICKS_PER_TIMER0_OVERFLOW 64UL * 256UL
+#define LPTMR_OVERFLOW_PERIOD_MS 100
 
-volatile static uint32_t timer0_ticks = 0;
-volatile static uint32_t overflow_ms = 0;
+volatile static uint32_t overflow = 0;
 
-// The Timer0 overflow interrupt handler
-//ISR(TIMER0_OVF_vect)
-//{
-//  // Add an overflow's worth of time
-//  timer0_ticks += CLOCK_TICKS_PER_TIMER0_OVERFLOW;
-//  for(; timer0_ticks > CLOCK_TICKS_PER_MS; timer0_ticks -= CLOCK_TICKS_PER_MS)
-//  {
-//    overflow_ms++;
-//  }
-//}
 
-// Initialize the 8-bit Timer 0.
+//Callback function for LPTMR0 interrupt handler
+void overflow_counter(void)
+{
+	overflow++;
+}
+
+// Enable LPTMR0 interrupt
+void NVIC_init_LPTMR0_IRQs (void)
+{
+    S32_NVIC->ICPR[1] = 1 << (LPTMR0_IRQn % 32);  /* IRQ58-LPTMR: clr any pending IRQ*/
+    S32_NVIC->ISER[1] = 1 << (LPTMR0_IRQn % 32);  /* IRQ58-LPTMR: enable IRQ */
+    S32_NVIC->IP[LPTMR0_IRQn] = 0xA0;             /* IRQ58-LPTMR: priority 10 of 0-15*/
+}
+
+// Initialize LPTMR0 16-bit timer @ 1KHz
 void s32k148_time_init(void)
 {
-//  // Prescale Timer 0 to divide by 64
-//  TCCR0B |= _BV(CS01) | _BV(CS00);
-//  // Enable Timer 0 overflow interrupt
-//  TIMSK0 |= _BV(TOIE0);
+	LPTMR_init(LPTMR_OVERFLOW_PERIOD_MS, overflow_counter);
+	NVIC_init_LPTMR0_IRQs();
 }
 
 // Get the current time in milliseconds
 uint32_t s32k148_time_now(void)
 {
-//  uint32_t now;
-//
-//  // Disable interrupts
-//  cli();
-//  now = overflow_ms;
-//  sei();
-//
-//  return now;
-	return 0;
+	return overflow * LPTMR_OVERFLOW_PERIOD_MS;
 }
+
+

@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-#Progress monitor hint: 8
+#Progress monitor hint: 9
 first : all
 -include ../makefile.init
 
@@ -16,6 +16,7 @@ RM := rm -rf
 -include subdir.mk
 -include Project_Settings/Linker_Files/subdir.mk
 -include Project_Settings/Startup_Code/subdir.mk
+-include src/drivers/subdir.mk
 -include src/subdir.mk
 -include src/ross_files/ros_lib/subdir.mk
 -include src/ross_files/subdir.mk
@@ -46,38 +47,38 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-S32K148_ross_test.elf \
+s32k148_ross_uart.elf \
 
 EXECUTABLES_QUOTED += \
-"S32K148_ross_test.elf" \
+"s32k148_ross_uart.elf" \
 
 EXECUTABLES_OS_FORMAT += \
-S32K148_ross_test.elf \
+s32k148_ross_uart.elf \
 
 SECONDARY_SIZE += \
-S32K148_ross_test.siz \
+s32k148_ross_uart.siz \
 
 SECONDARY_SIZE_QUOTED += \
-"S32K148_ross_test.siz" \
+"s32k148_ross_uart.siz" \
 
 SECONDARY_SIZE_OS_FORMAT += \
-S32K148_ross_test.siz \
+s32k148_ross_uart.siz \
 
 
 # All Target
-all: warning-messages explicit-dependencies S32K148_ross_test.elf secondary-outputs
+all: warning-messages explicit-dependencies s32k148_ross_uart.elf secondary-outputs
 
 # Tool invocations
-S32K148_ross_test.elf: $(OBJS) C:/Users/nxa11643/S32K1xx_TEC/S32K148_ross_test/Project_Settings/Linker_Files/S32K1xx_flash.ld $(USER_OBJS)
+s32k148_ross_uart.elf: $(OBJS) C:/Users/Farid/workspaceS32DS.ARM/s32k148_ross_uart/Project_Settings/Linker_Files/S32K1xx_flash.ld $(USER_OBJS)
 	@echo 'Building target: $@'
-	@echo 'Executing target #9 $@'
+	@echo 'Executing target #10 $@'
 	@echo 'Invoking: Standard S32DS C++ Linker'
-	arm-none-eabi-g++ -o "S32K148_ross_test.elf" "@S32K148_ross_test.args"  $(USER_OBJS_QUOTED) $(LIBS_QUOTED)
+	arm-none-eabi-g++ -o "s32k148_ross_uart.elf" "@s32k148_ross_uart.args"  $(USER_OBJS_QUOTED) $(LIBS_QUOTED)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-S32K148_ross_test.siz: $(EXECUTABLES)
-	@echo 'Executing target #10 $@'
+s32k148_ross_uart.siz: $(EXECUTABLES)
+	@echo 'Executing target #11 $@'
 	@echo 'Invoking: Standard S32DS Print Size'
 	arm-none-eabi-size --format=berkeley $(EXECUTABLES)
 	@echo 'Finished building: $@'
