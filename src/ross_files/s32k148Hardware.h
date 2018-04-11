@@ -12,7 +12,7 @@ class s32K148Hardware {
 	s32K148Hardware() {}
 
 
-    // Initialize the AVR
+    // Initialize the s32K148
     void init()
     {
       //wdt_disable();

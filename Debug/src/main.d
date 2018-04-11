@@ -53,7 +53,8 @@ src/main.o: ../src/main.cpp \
  C:/Users/Farid/workspaceS32DS.ARM/s32k148_ross_uart/src/ross_files/ros_lib/ros/service_client.h \
  C:/Users/Farid/workspaceS32DS.ARM/s32k148_ross_uart/src/ross_files/s32k148Hardware.h \
  C:/Users/Farid/workspaceS32DS.ARM/s32k148_ross_uart/src/ross_files/s32k148_time.h \
- C:/Users/Farid/workspaceS32DS.ARM/s32k148_ross_uart/src/ross_files/s32k148_uart.h
+ C:/Users/Farid/workspaceS32DS.ARM/s32k148_ross_uart/src/ross_files/s32k148_uart.h \
+ ../src/clocks_and_modes.h
 
 C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C++/include/lib_c++.prefix:
 
@@ -164,3 +165,5 @@ C:/Users/Farid/workspaceS32DS.ARM/s32k148_ross_uart/src/ross_files/s32k148Hardwa
 C:/Users/Farid/workspaceS32DS.ARM/s32k148_ross_uart/src/ross_files/s32k148_time.h:
 
 C:/Users/Farid/workspaceS32DS.ARM/s32k148_ross_uart/src/ross_files/s32k148_uart.h:
+
+../src/clocks_and_modes.h:

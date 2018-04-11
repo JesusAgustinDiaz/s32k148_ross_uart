@@ -1,6 +1,8 @@
 #include "S32K148.h"
 #include "s32k148_uart.h"
 
+#include "../drivers/lpuart.h"
+
 #define BAUD 57600
 #define UBRR_VAL ((F_CPU / (16UL * BAUD)) - 1)
 
@@ -8,24 +10,17 @@
 // Initialize the UART
 void s32k148_uart_init(void)
 {
-//  // Enable bidirectional UART
-//  UCSR1B |= _BV(RXEN1) | _BV(TXEN1);
-//  // Use 8-bit characters
-//  UCSR1C |= _BV(UCSZ10) | _BV(UCSZ11);
-//  // Set the Baud rate
-//  UBRR1H = (UBRR_VAL >> 8);
-//  UBRR1L = UBRR_VAL;
+	PCC->PCCn[PCC_PORTC_INDEX] = PCC_PCCn_CGC(1);
+	PORTC->PCR[6]|=PORT_PCR_MUX(2);           /* Port C6: MUX = ALT2,UART1 RX */
+	PORTC->PCR[7]|=PORT_PCR_MUX(2);           /* Port C7: MUX = ALT2,UART1 TX */
+	LPUART_Init(PCC_LPUART1_INDEX, LPUART1); // (ip_index, base)
 }
 
 
 // Send one char (blocking)
 void s32k148_uart_send_byte(uint8_t tx_byte)
 {
-//  // Wait to be able to transmit
-//  while((UCSR1A & _BV(UDRE1)) == 0)
-//    asm volatile("nop"::);
-//  // Put the data into the send buffer
-//  UDR1 = tx_byte;
+	LPUART_Send(LPUART1, tx_byte);
 }
 
 
@@ -40,5 +35,6 @@ int16_t s32k148_uart_receive_byte(void)
 //  {
 //    return -1;
 //  }
-	return 0;
+
+	return LPUART_Receive();
 }

@@ -82,8 +82,8 @@ CPP_DEPS :=
 SUBDIRS := \
 Project_Settings/Linker_Files \
 Project_Settings/Startup_Code \
-src/drivers \
 src \
+src/drivers \
 src/ross_files/ros_lib \
 src/ross_files \
 

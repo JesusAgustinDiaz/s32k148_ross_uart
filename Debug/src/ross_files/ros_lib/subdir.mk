@@ -37,7 +37,7 @@ CPP_DEPS += \
 # Each subdirectory must supply rules for building sources it contributes
 src/ross_files/ros_lib/duration.o: ../src/ross_files/ros_lib/duration.cpp
 	@echo 'Building file: $<'
-	@echo 'Executing target #6 $<'
+	@echo 'Executing target #8 $<'
 	@echo 'Invoking: Standard S32DS C++ Compiler'
 	arm-none-eabi-g++ "@src/ross_files/ros_lib/duration.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "src/ross_files/ros_lib/duration.o" "$<"
 	@echo 'Finished building: $<'
@@ -45,7 +45,7 @@ src/ross_files/ros_lib/duration.o: ../src/ross_files/ros_lib/duration.cpp
 
 src/ross_files/ros_lib/time.o: ../src/ross_files/ros_lib/time.cpp
 	@echo 'Building file: $<'
-	@echo 'Executing target #7 $<'
+	@echo 'Executing target #9 $<'
 	@echo 'Invoking: Standard S32DS C++ Compiler'
 	arm-none-eabi-g++ "@src/ross_files/ros_lib/time.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "src/ross_files/ros_lib/time.o" "$<"
 	@echo 'Finished building: $<'

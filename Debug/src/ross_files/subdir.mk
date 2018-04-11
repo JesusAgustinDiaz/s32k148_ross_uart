@@ -37,7 +37,7 @@ OBJS += \
 # Each subdirectory must supply rules for building sources it contributes
 src/ross_files/s32k148_time.o: ../src/ross_files/s32k148_time.c
 	@echo 'Building file: $<'
-	@echo 'Executing target #8 $<'
+	@echo 'Executing target #10 $<'
 	@echo 'Invoking: Standard S32DS C Compiler'
 	arm-none-eabi-gcc "@src/ross_files/s32k148_time.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "src/ross_files/s32k148_time.o" "$<"
 	@echo 'Finished building: $<'
@@ -45,7 +45,7 @@ src/ross_files/s32k148_time.o: ../src/ross_files/s32k148_time.c
 
 src/ross_files/s32k148_uart.o: ../src/ross_files/s32k148_uart.c
 	@echo 'Building file: $<'
-	@echo 'Executing target #9 $<'
+	@echo 'Executing target #11 $<'
 	@echo 'Invoking: Standard S32DS C Compiler'
 	arm-none-eabi-gcc "@src/ross_files/s32k148_uart.args" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -c -o "src/ross_files/s32k148_uart.o" "$<"
 	@echo 'Finished building: $<'

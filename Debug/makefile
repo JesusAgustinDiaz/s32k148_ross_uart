@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-#Progress monitor hint: 9
+#Progress monitor hint: 11
 first : all
 -include ../makefile.init
 
@@ -16,8 +16,8 @@ RM := rm -rf
 -include subdir.mk
 -include Project_Settings/Linker_Files/subdir.mk
 -include Project_Settings/Startup_Code/subdir.mk
--include src/drivers/subdir.mk
 -include src/subdir.mk
+-include src/drivers/subdir.mk
 -include src/ross_files/ros_lib/subdir.mk
 -include src/ross_files/subdir.mk
 -include objects.mk
@@ -71,14 +71,14 @@ all: warning-messages explicit-dependencies s32k148_ross_uart.elf secondary-outp
 # Tool invocations
 s32k148_ross_uart.elf: $(OBJS) C:/Users/Farid/workspaceS32DS.ARM/s32k148_ross_uart/Project_Settings/Linker_Files/S32K1xx_flash.ld $(USER_OBJS)
 	@echo 'Building target: $@'
-	@echo 'Executing target #10 $@'
+	@echo 'Executing target #12 $@'
 	@echo 'Invoking: Standard S32DS C++ Linker'
 	arm-none-eabi-g++ -o "s32k148_ross_uart.elf" "@s32k148_ross_uart.args"  $(USER_OBJS_QUOTED) $(LIBS_QUOTED)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 s32k148_ross_uart.siz: $(EXECUTABLES)
-	@echo 'Executing target #11 $@'
+	@echo 'Executing target #13 $@'
 	@echo 'Invoking: Standard S32DS Print Size'
 	arm-none-eabi-size --format=berkeley $(EXECUTABLES)
 	@echo 'Finished building: $@'
@@ -86,7 +86,7 @@ s32k148_ross_uart.siz: $(EXECUTABLES)
 
 # Other Targets
 clean:
-	-$(RM) ./*/*/*/*.d ./*/*.d  $(CC_DEPS_QUOTED) $(CXX_DEPS_QUOTED) $(C_UPPER_DEPS_QUOTED) $(SECONDARY_SIZE_QUOTED) $(C++_DEPS_QUOTED) ./*/*/*.d  ./*/*/*.o ./*/*/*/*.o ./*/*.o  $(EXECUTABLES_QUOTED)
+	-$(RM) ./*/*/*/*.d ./*/*.d  $(CC_DEPS_QUOTED) $(CXX_DEPS_QUOTED) $(C_UPPER_DEPS_QUOTED) $(SECONDARY_SIZE_QUOTED) $(C++_DEPS_QUOTED) ./*/*/*.d ./*/*.d  ./*/*/*.o ./*/*/*/*.o ./*/*.o  $(EXECUTABLES_QUOTED)
 	-@echo ' '
 
 secondary-outputs: $(SECONDARY_SIZE)
