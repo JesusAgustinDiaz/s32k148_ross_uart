@@ -1,6 +1,6 @@
 #include "s32k148_time.h"
 
-#include "S32k148.h"
+#include "S32K148.h"
 #include "../drivers/lptmr.h"
 
 #define LPTMR_OVERFLOW_PERIOD_MS 100
@@ -27,12 +27,13 @@ void s32k148_time_init(void)
 {
 	LPTMR_init(LPTMR_OVERFLOW_PERIOD_MS, overflow_counter);
 	NVIC_init_LPTMR0_IRQs();
+
 }
 
 // Get the current time in milliseconds
 uint32_t s32k148_time_now(void)
 {
-	return overflow * LPTMR_OVERFLOW_PERIOD_MS;
+	return (overflow * LPTMR_OVERFLOW_PERIOD_MS + LPTMR0->CNR);
 }
 
 

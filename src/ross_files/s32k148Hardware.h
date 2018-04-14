@@ -7,6 +7,9 @@ extern "C"
   #include "s32k148_uart.h"
 }
 
+#include "S32K148.h"
+
+
 class s32K148Hardware {
   public:
 	s32K148Hardware() {}
@@ -15,7 +18,9 @@ class s32K148Hardware {
     // Initialize the s32K148
     void init()
     {
-      //wdt_disable();
+    	WDOG->CNT=0xD928C520;    /*Unlock watchdog*/
+    	WDOG->TOVAL=0x0000FFFF;  /*Maximum timeout value*/
+    	WDOG->CS = 0x00002100;   /*Disable watchdog*/
       s32k148_time_init();
       s32k148_uart_init();
       //sei();
