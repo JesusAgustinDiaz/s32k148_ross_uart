@@ -13,7 +13,13 @@ namespace std_msgs
   class Duration : public ros::Msg
   {
     public:
-      ros::Duration data;
+      typedef ros::Duration _data_type;
+      _data_type data;
+
+    Duration():
+      data()
+    {
+    }
 
     virtual int serialize(unsigned char *outbuffer) const
     {
@@ -34,12 +40,12 @@ namespace std_msgs
     virtual int deserialize(unsigned char *inbuffer)
     {
       int offset = 0;
-      this->data.sec |= ((uint32_t) (*(inbuffer + offset + 0))) << (8 * 0);
+      this->data.sec =  ((uint32_t) (*(inbuffer + offset)));
       this->data.sec |= ((uint32_t) (*(inbuffer + offset + 1))) << (8 * 1);
       this->data.sec |= ((uint32_t) (*(inbuffer + offset + 2))) << (8 * 2);
       this->data.sec |= ((uint32_t) (*(inbuffer + offset + 3))) << (8 * 3);
       offset += sizeof(this->data.sec);
-      this->data.nsec |= ((uint32_t) (*(inbuffer + offset + 0))) << (8 * 0);
+      this->data.nsec =  ((uint32_t) (*(inbuffer + offset)));
       this->data.nsec |= ((uint32_t) (*(inbuffer + offset + 1))) << (8 * 1);
       this->data.nsec |= ((uint32_t) (*(inbuffer + offset + 2))) << (8 * 2);
       this->data.nsec |= ((uint32_t) (*(inbuffer + offset + 3))) << (8 * 3);

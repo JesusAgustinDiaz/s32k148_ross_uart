@@ -12,7 +12,13 @@ namespace std_msgs
   class UInt8 : public ros::Msg
   {
     public:
-      uint8_t data;
+      typedef uint8_t _data_type;
+      _data_type data;
+
+    UInt8():
+      data(0)
+    {
+    }
 
     virtual int serialize(unsigned char *outbuffer) const
     {
@@ -25,7 +31,7 @@ namespace std_msgs
     virtual int deserialize(unsigned char *inbuffer)
     {
       int offset = 0;
-      this->data |= ((uint8_t) (*(inbuffer + offset + 0))) << (8 * 0);
+      this->data =  ((uint8_t) (*(inbuffer + offset)));
       offset += sizeof(this->data);
      return offset;
     }
