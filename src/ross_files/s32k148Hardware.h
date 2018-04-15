@@ -23,9 +23,10 @@ class s32K148Hardware {
 
     // Read a byte of data from ROS connection.
     // If no data, returns -1
-    int read()
+    int16_t read()
     {
-      return s32k148_uart_receive_byte();
+    	int16_t r = s32k148_uart_receive_byte();
+      return r;
     }
 
 

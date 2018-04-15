@@ -47,37 +47,52 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-s32k148_ross_uart.elf \
+S32K148_ross_test.elf \
 
 EXECUTABLES_QUOTED += \
-"s32k148_ross_uart.elf" \
+"S32K148_ross_test.elf" \
 
 EXECUTABLES_OS_FORMAT += \
-s32k148_ross_uart.elf \
+S32K148_ross_test.elf \
 
 SECONDARY_SIZE += \
-s32k148_ross_uart.siz \
+S32K148_ross_test.siz \
+S32K148_ross_test.siz \
 
 SECONDARY_SIZE_QUOTED += \
-"s32k148_ross_uart.siz" \
+"S32K148_ross_test.siz" \
+"S32K148_ross_test.siz" \
 
 SECONDARY_SIZE_OS_FORMAT += \
-s32k148_ross_uart.siz \
+S32K148_ross_test.siz \
+S32K148_ross_test.siz \
+
+SECONDARY_SIZE += \
+S32K148_ross_test.siz \
+S32K148_ross_test.siz \
+
+SECONDARY_SIZE_QUOTED += \
+"S32K148_ross_test.siz" \
+"S32K148_ross_test.siz" \
+
+SECONDARY_SIZE_OS_FORMAT += \
+S32K148_ross_test.siz \
+S32K148_ross_test.siz \
 
 
 # All Target
-all: warning-messages explicit-dependencies s32k148_ross_uart.elf secondary-outputs
+all: warning-messages explicit-dependencies S32K148_ross_test.elf secondary-outputs
 
 # Tool invocations
-s32k148_ross_uart.elf: $(OBJS) C:/Users/Farid/workspaceS32DS.ARM/s32k148_ross_uart/Project_Settings/Linker_Files/S32K1xx_flash.ld $(USER_OBJS)
+S32K148_ross_test.elf: $(OBJS) /home/jose/code/ros/rosserial/s32k148_ross_uart/Project_Settings/Linker_Files/S32K1xx_flash.ld $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Executing target #12 $@'
 	@echo 'Invoking: Standard S32DS C++ Linker'
-	arm-none-eabi-g++ -o "s32k148_ross_uart.elf" "@s32k148_ross_uart.args"  $(USER_OBJS_QUOTED) $(LIBS_QUOTED)
+	arm-none-eabi-g++ -o "S32K148_ross_test.elf" "@S32K148_ross_test.args"  $(USER_OBJS_QUOTED) $(LIBS_QUOTED)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-s32k148_ross_uart.siz: $(EXECUTABLES)
+S32K148_ross_test.siz: $(EXECUTABLES)
 	@echo 'Executing target #13 $@'
 	@echo 'Invoking: Standard S32DS Print Size'
 	arm-none-eabi-size --format=berkeley $(EXECUTABLES)
@@ -89,7 +104,7 @@ clean:
 	-$(RM) ./*/*/*/*.d ./*/*.d  $(CC_DEPS_QUOTED) $(CXX_DEPS_QUOTED) $(C_UPPER_DEPS_QUOTED) $(SECONDARY_SIZE_QUOTED) $(C++_DEPS_QUOTED) ./*/*/*.d ./*/*.d  ./*/*/*.o ./*/*/*/*.o ./*/*.o  $(EXECUTABLES_QUOTED)
 	-@echo ' '
 
-secondary-outputs: $(SECONDARY_SIZE)
+secondary-outputs: $(SECONDARY_SIZE) $(SECONDARY_SIZE)
 
 .PHONY: all clean dependents explicit-dependencies warning-messages
 .SECONDARY:

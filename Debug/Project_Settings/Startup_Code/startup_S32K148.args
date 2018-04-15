@@ -1,14 +1,15 @@
--I"C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C++/include"
--I"C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C++/include/arm"
--I"C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include"
--I"C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_C/include/arm"
--I"C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_Runtime/include"
--I"C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2/EWL_Runtime/include/arm"
--I"C:/Users/Farid/workspaceS32DS.ARM/s32k148_ross_uart/include"
+-c
+-I"/home/jose/NXP/S32DS_ARM_v2018.R1/S32DS/arm_ewl2/EWL_C++/include"
+-I"/home/jose/NXP/S32DS_ARM_v2018.R1/S32DS/arm_ewl2/EWL_C++/include/arm"
+-I"/home/jose/NXP/S32DS_ARM_v2018.R1/S32DS/arm_ewl2/EWL_C/include"
+-I"/home/jose/NXP/S32DS_ARM_v2018.R1/S32DS/arm_ewl2/EWL_C/include/arm"
+-I"/home/jose/NXP/S32DS_ARM_v2018.R1/S32DS/arm_ewl2/EWL_Runtime/include"
+-I"/home/jose/NXP/S32DS_ARM_v2018.R1/S32DS/arm_ewl2/EWL_Runtime/include/arm"
+-I"/home/jose/code/ros/rosserial/s32k148_ross_uart/include"
 -x assembler-with-cpp
 -O0
 -g3
 -mcpu=cortex-m4
 -mthumb
 -specs=ewl_c9x_c++_noio.specs
---sysroot="C:/NXP/S32DS_ARM_v2.0/S32DS/arm_ewl2"
+--sysroot="/home/jose/NXP/S32DS_ARM_v2018.R1/S32DS/arm_ewl2"

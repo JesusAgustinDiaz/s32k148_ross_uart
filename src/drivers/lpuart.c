@@ -42,13 +42,22 @@ void LPUART_Init(uint8_t ip_index,LPUART_Type * base)
 void LPUART_Send(LPUART_Type * base, uint8_t data)
 {
     while((base->STAT & LPUART_STAT_TDRE_MASK)>>LPUART_STAT_TDRE_SHIFT==0); /* Wait for transmit buffer to be empty */
+    //uint16_t swapped = data << 8;
     base->DATA=data;                      								  	/* Send data */
 }
 
 int16_t LPUART_Receive(void)
 {
+	uint32_t receive;
 	/*Read byte of data. Send -1 when empty*/
-	int16_t receive = (LPUART1->STAT & LPUART_STAT_RDRF_MASK)? LPUART1->DATA : -1;
+	if (LPUART1->STAT & LPUART_STAT_RDRF_MASK) {
+		receive = LPUART1->DATA;
+		//receive = (to_swap >> 8) | (to_swap << 8);
+	}
+	else {
+		receive = -1;
+	}
+
 	return receive;
 }
 

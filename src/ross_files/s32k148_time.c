@@ -1,6 +1,6 @@
 #include "s32k148_time.h"
 
-#include "S32k148.h"
+#include "S32K148.h"
 #include "../drivers/lptmr.h"
 
 #define LPTMR_OVERFLOW_PERIOD_MS 100

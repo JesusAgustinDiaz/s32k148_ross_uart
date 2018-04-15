@@ -27,14 +27,8 @@ void s32k148_uart_send_byte(uint8_t tx_byte)
 // Get one char if available, otherwise -1
 int16_t s32k148_uart_receive_byte(void)
 {
-//  if((UCSR1A & _BV(RXC1)) != 0)
-//  {
-//    return UDR1;
-//  }
-//  else
-//  {
-//    return -1;
-//  }
-
+	//int16_t l = LPUART_Receive();
+	//uint16_t k = l;
+	//int8_t n = ((k >> 0) & 0xff);
 	return LPUART_Receive();
 }
