@@ -12,33 +12,42 @@ namespace rosserial_msgs
   class Log : public ros::Msg
   {
     public:
-      uint8_t level;
-      char * msg;
-      enum { DEBUG = 0 };
+      typedef uint8_t _level_type;
+      _level_type level;
+      typedef const char* _msg_type;
+      _msg_type msg;
+      enum { ROSDEBUG = 0 };
       enum { INFO = 1 };
       enum { WARN = 2 };
       enum { ERROR = 3 };
       enum { FATAL = 4 };
+
+    Log():
+      level(0),
+      msg("")
+    {
+    }
 
     virtual int serialize(unsigned char *outbuffer) const
     {
       int offset = 0;
       *(outbuffer + offset + 0) = (this->level >> (8 * 0)) & 0xFF;
       offset += sizeof(this->level);
-      uint32_t * length_msg = (uint32_t *)(outbuffer + offset);
-      *length_msg = strlen( (const char*) this->msg);
+      uint32_t length_msg = strlen(this->msg);
+      varToArr(outbuffer + offset, length_msg);
       offset += 4;
-      memcpy(outbuffer + offset, this->msg, *length_msg);
-      offset += *length_msg;
+      memcpy(outbuffer + offset, this->msg, length_msg);
+      offset += length_msg;
       return offset;
     }
 
     virtual int deserialize(unsigned char *inbuffer)
     {
       int offset = 0;
-      this->level |= ((uint8_t) (*(inbuffer + offset + 0))) << (8 * 0);
+      this->level =  ((uint8_t) (*(inbuffer + offset)));
       offset += sizeof(this->level);
-      uint32_t length_msg = *(uint32_t *)(inbuffer + offset);
+      uint32_t length_msg;
+      arrToVar(length_msg, (inbuffer + offset));
       offset += 4;
       for(unsigned int k= offset; k< offset+length_msg; ++k){
           inbuffer[k-1]=inbuffer[k];
@@ -50,7 +59,7 @@ namespace rosserial_msgs
     }
 
     const char * getType(){ return "rosserial_msgs/Log"; };
-    const char * getMD5(){ return "7170d5aec999754ba0d9f762bf49b913"; };
+    const char * getMD5(){ return "11abd731c25933261cd6183bd12d6295"; };
 
   };
 
