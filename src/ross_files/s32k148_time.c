@@ -32,7 +32,7 @@ void s32k148_time_init(void)
 // Get the current time in milliseconds
 uint32_t s32k148_time_now(void)
 {
-	return overflow * LPTMR_OVERFLOW_PERIOD_MS;
+	return overflow * LPTMR_OVERFLOW_PERIOD_MS + LPTMR0->CNR;
 }
 
 
