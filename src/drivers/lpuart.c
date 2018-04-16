@@ -51,6 +51,9 @@ int16_t LPUART_Receive(void)
 {
 	uint32_t receive;
 	/*Read byte of data. Send -1 when empty*/
+	if (LPUART1->STAT & LPUART_STAT_OR_MASK) {
+		LPUART1->STAT |= LPUART_STAT_OR_MASK;
+	}
 	if (LPUART1->STAT & LPUART_STAT_RDRF_MASK) {
 		receive = LPUART1->DATA;
 	}
