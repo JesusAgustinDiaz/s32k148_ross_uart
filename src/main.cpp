@@ -27,39 +27,32 @@ void led_off(void) {
 }
 
 
-int main()
-{
-	ros::NodeHandle nh;
-	std_msgs::String str_msg;
-	ros::Publisher chatter("chatter", &str_msg);
-	char hello[2] = "h";
+int main() {
 
-	SOSC_init_8MHz();       /* Initialize system oscilator for 8 MHz xtal */
-	SPLL_init_160MHz();     /* Initialize SPLL to 160 MHz with 8 MHz SOSC */
-	NormalRUNmode_80MHz();  /* Init clocks: 80 MHz sysclk & core, 40 MHz bus, 20 MHz flash */
+  ros::NodeHandle nh;
+  std_msgs::String str_msg;
+  ros::Publisher chatter("chatter", &str_msg);
+  char hello[2] = "h";
 
-	init_led();
+  SOSC_init_8MHz();       /* Initialize system oscilator for 8 MHz xtal */
+  SPLL_init_160MHz();     /* Initialize SPLL to 160 MHz with 8 MHz SOSC */
+  NormalRUNmode_80MHz();  /* Init clocks: 80 MHz sysclk & core, 40 MHz bus, 20 MHz flash */
 
+  init_led();
 
   uint32_t lasttime = 0UL;
+
   // Initialize ROS
   nh.initNode();
   nh.advertise(chatter);
-  //chatter.set_nh(&nh);
 
-  while(1)
-  {
-    // Send the message every second
-    if(s32k148_time_now() - lasttime > 1000)
-    {
+  while(1) {
+    if(s32k148_time_now() - lasttime > 10) {
       str_msg.data = hello;
-
-      chatter.publish(&str_msg);
       lasttime = s32k148_time_now();
+      chatter.publish(&str_msg);
     }
     nh.spinOnce();
-
   }
-
   return 0;
 }

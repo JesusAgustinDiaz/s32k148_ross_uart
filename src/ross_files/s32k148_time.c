@@ -3,7 +3,7 @@
 #include "S32K148.h"
 #include "../drivers/lptmr.h"
 
-#define LPTMR_OVERFLOW_PERIOD_MS 100
+#define LPTMR_OVERFLOW_PERIOD_MS 10
 
 volatile static uint32_t overflow = 0;
 
@@ -32,7 +32,7 @@ void s32k148_time_init(void)
 // Get the current time in milliseconds
 uint32_t s32k148_time_now(void)
 {
-	return overflow * LPTMR_OVERFLOW_PERIOD_MS + LPTMR0->CNR;
+	return overflow * LPTMR_OVERFLOW_PERIOD_MS;
 }
 
 
