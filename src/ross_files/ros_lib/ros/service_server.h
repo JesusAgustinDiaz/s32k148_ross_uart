@@ -58,7 +58,7 @@ namespace ros {
       virtual void callback(unsigned char *data){
         req.deserialize(data);
         cb_(req,resp);
-        //pub.publish(&resp);
+        pub.publish(&resp);
       }
       virtual const char * getMsgType(){ return this->req.getType(); }
       virtual const char * getMsgMD5(){ return this->req.getMD5(); }

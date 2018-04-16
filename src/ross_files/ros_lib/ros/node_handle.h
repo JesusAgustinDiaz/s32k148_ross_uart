@@ -74,7 +74,7 @@ namespace ros {
 
   class NodeHandleBase_{
     public:
-      //virtual int publish(int id, const Msg* msg)=0;
+      virtual int publish(int id, const Msg* msg)=0;
       virtual int spinOnce()=0;
       virtual bool connected()=0;
     };
@@ -420,7 +420,7 @@ namespace ros {
         configured_ = true;
       }
 
-      int publish(int id, const Msg * msg)
+      virtual int publish(int id, const Msg * msg)
       {
         if(id >= 100 && !configured_)
 	  return 0;

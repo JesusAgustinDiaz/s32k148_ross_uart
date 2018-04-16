@@ -11,12 +11,6 @@ extern "C" {
 extern "C" void __cxa_pure_virtual(void);
 void __cxa_pure_virtual(void) {}
 
-ros::NodeHandle nh;
-
-std_msgs::String str_msg;
-ros::Publisher chatter("chatter", &str_msg);
-
-char hello[2] = "h";
 
 void init_led(void){
 	PCC->PCCn[PCC_PORTE_INDEX] = PCC_PCCn_CGC(1);
@@ -35,6 +29,11 @@ void led_off(void) {
 
 int main()
 {
+	ros::NodeHandle nh;
+	std_msgs::String str_msg;
+	ros::Publisher chatter("chatter", &str_msg);
+	char hello[2] = "h";
+
 	SOSC_init_8MHz();       /* Initialize system oscilator for 8 MHz xtal */
 	SPLL_init_160MHz();     /* Initialize SPLL to 160 MHz with 8 MHz SOSC */
 	NormalRUNmode_80MHz();  /* Init clocks: 80 MHz sysclk & core, 40 MHz bus, 20 MHz flash */
@@ -55,8 +54,7 @@ int main()
     {
       str_msg.data = hello;
 
-      //chatter.publish(&str_msg);
-      nh.publish(chatter.id_, &str_msg);
+      chatter.publish(&str_msg);
       lasttime = s32k148_time_now();
     }
     nh.spinOnce();

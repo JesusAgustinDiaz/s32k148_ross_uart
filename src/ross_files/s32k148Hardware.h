@@ -25,7 +25,7 @@ class s32K148Hardware {
     // If no data, returns -1
     int16_t read()
     {
-    	int16_t r = s32k148_uart_receive_byte();
+      int16_t r = s32k148_uart_receive_byte();
       return r;
     }
 

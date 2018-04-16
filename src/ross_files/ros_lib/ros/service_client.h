@@ -57,7 +57,7 @@ namespace ros {
         if(!pub.nh_->connected()) return;
         ret = &response;
         waiting = true;
-        //pub.publish(&request);
+        pub.publish(&request);
         while(waiting && pub.nh_->connected())
           if(pub.nh_->spinOnce() < 0) break;
       }
