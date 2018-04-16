@@ -20,7 +20,8 @@ void LPUART_Init(uint8_t ip_index,LPUART_Type * base)
 
 
     base->BAUD&=~LPUART_BAUD_SBR_MASK;
-    base->BAUD|= 26;    /* For 19200 baud: baud divisor=8M/19200/16 = ~26 */
+    base->BAUD|= 9;    /* For 19200 baud: baud divisor=8M/19200/16 = ~26 */
+    					/* For 57600 baud: baud divisor = ~9 */
     /* SBR=26 */
     /* OSR=16 */
     /* SBNS=0: One stop bit */
@@ -42,13 +43,21 @@ void LPUART_Init(uint8_t ip_index,LPUART_Type * base)
 void LPUART_Send(LPUART_Type * base, uint8_t data)
 {
     while((base->STAT & LPUART_STAT_TDRE_MASK)>>LPUART_STAT_TDRE_SHIFT==0); /* Wait for transmit buffer to be empty */
+    //uint16_t swapped = data << 8;
     base->DATA=data;                      								  	/* Send data */
 }
 
 int16_t LPUART_Receive(void)
 {
+	uint32_t receive;
 	/*Read byte of data. Send -1 when empty*/
-	int16_t receive = (LPUART1->STAT & LPUART_STAT_RDRF_MASK)? LPUART1->DATA : -1;
+	if (LPUART1->STAT & LPUART_STAT_RDRF_MASK) {
+		receive = LPUART1->DATA;
+	}
+	else {
+		receive = -1;
+	}
+
 	return receive;
 }
 

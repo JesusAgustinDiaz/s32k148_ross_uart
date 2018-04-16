@@ -13,9 +13,19 @@ namespace std_msgs
   class Header : public ros::Msg
   {
     public:
-      uint32_t seq;
-      ros::Time stamp;
-      char * frame_id;
+      typedef uint32_t _seq_type;
+      _seq_type seq;
+      typedef ros::Time _stamp_type;
+      _stamp_type stamp;
+      typedef const char* _frame_id_type;
+      _frame_id_type frame_id;
+
+    Header():
+      seq(0),
+      stamp(),
+      frame_id("")
+    {
+    }
 
     virtual int serialize(unsigned char *outbuffer) const
     {
@@ -35,33 +45,34 @@ namespace std_msgs
       *(outbuffer + offset + 2) = (this->stamp.nsec >> (8 * 2)) & 0xFF;
       *(outbuffer + offset + 3) = (this->stamp.nsec >> (8 * 3)) & 0xFF;
       offset += sizeof(this->stamp.nsec);
-      uint32_t * length_frame_id = (uint32_t *)(outbuffer + offset);
-      *length_frame_id = strlen( (const char*) this->frame_id);
+      uint32_t length_frame_id = strlen(this->frame_id);
+      varToArr(outbuffer + offset, length_frame_id);
       offset += 4;
-      memcpy(outbuffer + offset, this->frame_id, *length_frame_id);
-      offset += *length_frame_id;
+      memcpy(outbuffer + offset, this->frame_id, length_frame_id);
+      offset += length_frame_id;
       return offset;
     }
 
     virtual int deserialize(unsigned char *inbuffer)
     {
       int offset = 0;
-      this->seq |= ((uint32_t) (*(inbuffer + offset + 0))) << (8 * 0);
+      this->seq =  ((uint32_t) (*(inbuffer + offset)));
       this->seq |= ((uint32_t) (*(inbuffer + offset + 1))) << (8 * 1);
       this->seq |= ((uint32_t) (*(inbuffer + offset + 2))) << (8 * 2);
       this->seq |= ((uint32_t) (*(inbuffer + offset + 3))) << (8 * 3);
       offset += sizeof(this->seq);
-      this->stamp.sec |= ((uint32_t) (*(inbuffer + offset + 0))) << (8 * 0);
+      this->stamp.sec =  ((uint32_t) (*(inbuffer + offset)));
       this->stamp.sec |= ((uint32_t) (*(inbuffer + offset + 1))) << (8 * 1);
       this->stamp.sec |= ((uint32_t) (*(inbuffer + offset + 2))) << (8 * 2);
       this->stamp.sec |= ((uint32_t) (*(inbuffer + offset + 3))) << (8 * 3);
       offset += sizeof(this->stamp.sec);
-      this->stamp.nsec |= ((uint32_t) (*(inbuffer + offset + 0))) << (8 * 0);
+      this->stamp.nsec =  ((uint32_t) (*(inbuffer + offset)));
       this->stamp.nsec |= ((uint32_t) (*(inbuffer + offset + 1))) << (8 * 1);
       this->stamp.nsec |= ((uint32_t) (*(inbuffer + offset + 2))) << (8 * 2);
       this->stamp.nsec |= ((uint32_t) (*(inbuffer + offset + 3))) << (8 * 3);
       offset += sizeof(this->stamp.nsec);
-      uint32_t length_frame_id = *(uint32_t *)(inbuffer + offset);
+      uint32_t length_frame_id;
+      arrToVar(length_frame_id, (inbuffer + offset));
       offset += 4;
       for(unsigned int k= offset; k< offset+length_frame_id; ++k){
           inbuffer[k-1]=inbuffer[k];
